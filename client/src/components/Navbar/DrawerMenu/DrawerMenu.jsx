@@ -14,6 +14,7 @@ import { HamburgerIcon } from '@chakra-ui/icons'
 import Link from 'next/link'
 import { useDispatch, useSelector } from 'react-redux'
 import { setLanguage } from '../../../store/language'
+import data from '../../../../data/data'
 
 const DrawerMenu = () => {
     const { isOpen, onOpen, onClose } = useDisclosure()
@@ -23,7 +24,7 @@ const DrawerMenu = () => {
     const language = useSelector((state) => state.language)
 
     const handleLanguage = () => {
-        language ? dispatch(setLanguage(false)) : dispatch(setLanguage(true))
+        language === 'es' ? dispatch(setLanguage('en')) : dispatch(setLanguage('es'))
     }
 
     return (
@@ -44,27 +45,27 @@ const DrawerMenu = () => {
                     <Flex flexDirection="column" alignItems="center">
                         <Box mt="50px" fontSize="1.1rem" fontWeight="500">
                             <Link href="/">
-                                <a>{language ? <>Sobre mi</> : <>About me</>}</a>
+                            <a>{data[language].navbar[0]}</a>
                             </Link>
                         </Box>
                         <Box mt="50px" fontSize="1.1rem" fontWeight="500">
                             <Link href="/">
-                                <a>{language ? <>Proyectos</> : <>Projects</>}</a>
+                            <a>{data[language].navbar[1]}</a>
                             </Link>
                         </Box>
                         <Box mt="50px" fontSize="1.1rem" fontWeight="500">
                             <Link href="/">
-                                <a>{language ? <>Tecnologías</> : <>Skills</>}</a>
+                            <a>{data[language].navbar[2]}</a>
                             </Link>
                         </Box>
                         <Box mt="50px" fontSize="1.1rem" fontWeight="500">
                             <Link href="/">
-                                <a style={{ target: '_blank' }}>{language ? <>Curriculum</> : <>Resume</>}</a>
+                                <a style={{ target: '_blank' }}>{data[language].navbar[3]}</a>
                             </Link>
                         </Box>
                         <Box mt="50px" fontSize="1.1rem" fontWeight="500">
                             <Link href="/">
-                                <a>{language ? <>Contacto</> : <>Contact</>}</a>
+                            <a>{data[language].navbar[4]}</a>
                             </Link>
                         </Box>
                         <Box

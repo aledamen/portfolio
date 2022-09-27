@@ -14,7 +14,7 @@ function MyApp({ Component, pageProps }) {
     setLoading(true)
     setTimeout(() => {
       setLoading(false);
-    }, 1500);
+    }, 2200);
   }, [])
 
   return (
@@ -23,7 +23,7 @@ function MyApp({ Component, pageProps }) {
         <Provider store={store}>
               <ChakraProvider theme={theme}>
                   <Component {...pageProps} />
-              </ChakraProvider>
+          </ChakraProvider>
         </Provider>
           ) : (
               <Loader/>

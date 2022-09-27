@@ -10,12 +10,12 @@ const Loader = () => {
     return (
         <Container h="100vh" display="flex" alignItems="center" justifyContent="center">
             <ChakraBox
-                initial={{ opacity: 0.5, scale: 2 }}
-                animate={{ opacity: 1, scale: 1 }}
+                initial={{ opacity: 1, scale: 3 }}
+                animate={{ opacity: 1, scale: 0 }}
                 transition={{
-                    duration: 0.7,
-                    delay: 0.3,
-                    ease: [0, 0.71, 0.2, 1.01],
+                    duration: 2,
+                    delay: 0.5,
+                    'ease-in-out': [0, 0.71, 0.2, 1.01],
                 }}
                 padding="5px"
                 display="flex"
