@@ -9,7 +9,7 @@ const Init = () => {
     const language = useSelector((state) => state.language)
     return (
         <Flex
-            mt="90px"
+            pt="90px"
             height={{base:'600px',md:'700px'}}
             ml={{ base: '2rem', md: '6rem' }}
             mr={{ base: '2rem', md: '6rem' }}
