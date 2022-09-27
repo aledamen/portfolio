@@ -18,7 +18,7 @@ const data = {
         ],
         aboutMe: ['About me','Since I was a child I have always been passionate about technology and sports. For 7 years I worked as a Physical Education Teacher.',
         'Then I decided to give a twist to my career and I did a programming bootcamp at Plataforma 5, composed by more than 800hs during 4 months, working in pair programming and in teams, applying agile methodologies like SCRUM, which helped me to strengthen both my hard and soft skills.',
-        'I am a proactive, dedicated and responsible person. In my work experiences, teamwork was always important and each one of them helped me to grow.'],
+        'I am a proactive, dedicated and responsible person. In my work experiences, teamwork was always important and each one of them helped me to grow.', 'Download CV'],
     },
     es: {
         navbar: ['Inicio', 'Sobre mí', 'Proyectos', 'Tecnologías', 'Contacto'],
@@ -40,7 +40,7 @@ const data = {
         aboutMe: ['Sobre mí',
             'Desde chico siempre fui un apasionado por la tecnología y el deporte. Durante 7 años trabajé como Profesor de Educación Física.',
             'Luego decidí dar un giro a mi carrera e hice un bootcamp de programación en Plataforma 5, compuesto por mas de 800hs durante 4 meses, trabajando en pair programming y en equipos, aplicando metodologías ágiles como SCRUM, lo cual me ayudó a fortalecer tanto mis habilidades duras como blandas.',
-            'Soy una persona pro activa, dedicada y responsable. En mis experiencias laborales siempre fue importante el trabajo en equipo y cada una de ellas me ayudaron a crecer personalmente.',
+            'Soy una persona pro activa, dedicada y responsable. En mis experiencias laborales siempre fue importante el trabajo en equipo y cada una de ellas me ayudaron a crecer personalmente.', 'Descargar CV'
         ],
     },
 }

@@ -1,4 +1,4 @@
-import { Divider, Flex, Text } from '@chakra-ui/react'
+import { Button, Divider, Flex, Text } from '@chakra-ui/react'
 import { motion } from 'framer-motion'
 import data from '../../../data/data'
 import React from 'react'
@@ -63,6 +63,17 @@ const AboutMe = () => {
                     >
                         {data[language].aboutMe[3]}
                     </Text>
+                    <Button
+                    color="primary"
+                    bg="none"
+                    _hover={{ bg: 'rgba(104,179,173,.4)' }}
+                    m="2rem 0"
+                    w="300px"
+                    h="40px"
+                    border="1px solid #00f8ae"
+                >
+                    {data[language].aboutMe[4]}
+                </Button>
                 </Flex>
             </Flex>
         </Flex>

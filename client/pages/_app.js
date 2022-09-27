@@ -1,5 +1,5 @@
 import '../styles/globals.css'
-import { ChakraProvider } from '@chakra-ui/react'
+import { ChakraProvider, Flex } from '@chakra-ui/react'
 import { useEffect, useState } from 'react'
 import Loader from '../src/components/Loader/Loader'
 import theme from '../src/theme'
@@ -18,7 +18,7 @@ function MyApp({ Component, pageProps }) {
   }, [])
 
   return (
-      <>
+      <div style={{backgroundColor:'#00000'}}>
       {!loading ? (
         <Provider store={store}>
               <ChakraProvider theme={theme}>
@@ -28,7 +28,7 @@ function MyApp({ Component, pageProps }) {
           ) : (
               <Loader/>
           )}
-      </>
+      </div>
   )
 }
 
