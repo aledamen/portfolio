@@ -7,7 +7,7 @@ import { useSelector } from 'react-redux'
 const AboutMe = () => {
     const language = useSelector((state) => state.language)
     return (
-        <Flex flexDirection="column" alignItems={{ md: 'center' }} ml={{ base: '2rem' }} id='aboutMe'>
+        <Flex flexDirection="column" alignItems={{ md: 'center' }} ml={{ base: '3rem' }} id='aboutMe'>
             <Divider
                 as={motion.hr}
                 borderColor="primary"
@@ -16,7 +16,7 @@ const AboutMe = () => {
                 animate={{ opacity: 1, scale: 1 }}
                 transition="background 0.3s ease 0s, opacity 0.6s cubic-bezier(0.5, 0, 0, 1) 0.25s"
             />
-            <Flex flexDirection="column" alignItems={{ md: 'center' }} mt="4rem">
+            <Flex flexDirection="column" alignItems={{ md: 'center' }} mt={{base:"2rem", md:"4rem"}}>
                 <Text
                     as={motion.p}
                     initial={{ opacity: 0, scale: 0 }}
@@ -33,7 +33,7 @@ const AboutMe = () => {
                 <Flex
                     flexDirection="column"
                     alignItems={{ md: 'center' }}
-                    mt="4rem"
+                    mt={{base:"2rem", md:"4rem"}}
                     fontSize={{ base: '1rem', md: '1.3rem' }}
                     fontWeight="500"
                 >
@@ -76,10 +76,11 @@ const AboutMe = () => {
                         bg="none"
                         _hover={{ bg: 'rgba(0, 132, 228, 0.5)' }}
                         m="3rem 0"
-                        w="300px"
+                        w={{base:"200px",md:"300px"}}
                         h="40px"
                         border="1px solid #1E90FF"
                         fontFamily='heading'
+                        fontSize={{base:'1rem', md:'1.2rem'}}
                     >
                         {data[language].aboutMe[4]}
                     </Button>

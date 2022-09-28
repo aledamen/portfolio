@@ -10,8 +10,8 @@ const Init = () => {
     const language = useSelector((state) => state.language)
     return (
         <Flex
-            pt="90px"
-            height={{ base: '650px', md: '800px' }}
+            pt={{base:"120px", md:"90px"}}
+            height={{ base: '700px', md: '800px' }}
             ml={{ base: '2rem', md: '6rem' }}
             mr={{ base: '2rem', md: '6rem' }}
             as={motion.div}
@@ -20,7 +20,7 @@ const Init = () => {
             transition="background 0.3s ease 0s, opacity 0.6s cubic-bezier(0.5, 0, 0, 1) 0.25s"
             id='init'
         >
-            <Flex flexDirection="column" mt={{ base: '0', md: '4rem', lg: '6rem' }} ml={{ base: '0', md: '4rem', lg: '6rem' }} mr={{ base: '0'}}>
+            <Flex flexDirection="column" mt={{ base: '0', md: '4rem', lg: '6rem' }} ml={{ base: '3', md: '8rem', lg: '10rem' }} mr={{ base: '0'}}>
                 <Text as="p" fontSize={{ base: '1.2rem', md: '1.5rem' }} fontWeight="500" color="primary" mt="0.4rem 0" fontFamily='heading'>
                     {data[language].init[0]}
                 </Text>
@@ -46,10 +46,11 @@ const Init = () => {
                     bg="none"
                     _hover={{ bg: 'rgba(0, 132, 228, 0.5)' }}
                     m="2rem 0"
-                    w="300px"
+                    w={{base:"200px",md:"300px"}}
                     h="40px"
                     border="1px solid #1E90FF"
                     fontFamily='heading'
+                    fontSize={{base:'1rem', md:'1.2rem'}}
                 >
                     {data[language].init[5]}
                 </Button>
