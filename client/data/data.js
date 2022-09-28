@@ -18,7 +18,7 @@ const data = {
         ],
         aboutMe: ['About me','Since I was a child I have always been passionate about technology and sports. For 7 years I worked as a Physical Education Teacher.',
         'Then I decided to give a twist to my career and I did a programming bootcamp at Plataforma 5, composed by more than 800hs during 4 months, working in pair programming and in teams, applying agile methodologies like SCRUM, which helped me to strengthen both my hard and soft skills.',
-        'I am a proactive, dedicated and responsible person. In my work experiences, teamwork was always important and each one of them helped me to grow.', 'Download CV'],
+        'I am a proactive, dedicated and responsible person. In my work experiences, teamwork was always important and each one of them helped me to grow.', 'Download Resume'],
     },
     es: {
         navbar: ['Inicio', 'Sobre mí', 'Proyectos', 'Tecnologías', 'Contacto'],

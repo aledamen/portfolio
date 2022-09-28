@@ -14,8 +14,8 @@ a {
 * {
   box-sizing: content-box;
   color: #fff;
-  font-family: 'Rubik', sans-serif;
 }
+
 
 @media (prefers-color-scheme: dark) {
   html {

@@ -22,10 +22,10 @@ const ContactLine = () => {
             animate={{ opacity: 1, scale: 1 }}
             transition="background 0.3s ease 0s, opacity 0.6s cubic-bezier(0.5, 0, 0, 1) 0.25s"
         >
-            <Box w='30px' h='30px' cursor="pointer" mb="2.5rem" ml='5px'><Github w="25px" h="25px" _hover={{width:'27px', height:'27px'}}/></Box>
-            <Box w='30px' h='30px' cursor="pointer" mb="2.5rem" ml='5px'><Linkedin w="25px" h="25px" _hover={{width:'27px', height:'27px'}} /></Box>
-            <Box w='30px' h='30px' cursor="pointer" mb="2.5rem" ml='5px'><Whatsapp w="25px" h="25px" _hover={{width:'27px', height:'27px'}}/></Box>
-            <Box w='30px' h='30px' cursor="pointer" mb="2.5rem" ml='5px'><Mail w="25px" h="25px" _hover={{width:'27px', height:'27px'}}/></Box>
+            <Box w='30px' h='30px' fill='primary' cursor="pointer" mb="2.5rem" ml='5px'><Github w="25px" h="25px" _hover={{width:'27px', height:'27px'}}/></Box>
+            <Box w='30px' h='30px' fill='primary' cursor="pointer" mb="2.5rem" ml='5px'><Linkedin w="25px" h="25px" _hover={{width:'27px', height:'27px'}} /></Box>
+            <Box w='30px' h='30px' fill='primary' cursor="pointer" mb="2.5rem" ml='5px'><Whatsapp w="25px" h="25px" _hover={{width:'27px', height:'27px'}}/></Box>
+            <Box w='30px' h='30px' fill='primary' cursor="pointer" mb="2.5rem" ml='5px'><Mail w="25px" h="25px" _hover={{width:'27px', height:'27px'}}/></Box>
             <Divider borderColor="primary" orientation="vertical" height="100vh" borderWidth="1px" />
         </Flex>
     )

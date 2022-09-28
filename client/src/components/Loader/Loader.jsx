@@ -10,7 +10,7 @@ const Loader = () => {
     return (
         <Container h="100vh" display="flex" alignItems="center" justifyContent="center">
             <ChakraBox
-                initial={{ opacity: 1, scale: 3 }}
+                initial={{ opacity: 1, scale: 2.5 }}
                 animate={{ opacity: 1, scale: 0 }}
                 transition={{
                     duration: 2,
@@ -21,9 +21,9 @@ const Loader = () => {
                 display="flex"
                 justifyContent="center"
                 alignItems="center"
-                border='2px solid #00f8ae'
+                border='2px solid #1E90FF'
                 fontSize='1.5rem'
-                color='#00f8ae'
+                color='#1E90FF'
                 fontWeight='500'
             >
                 {logo}

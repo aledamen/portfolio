@@ -1,8 +1,13 @@
 import { extendTheme } from '@chakra-ui/react'
 
 const theme = extendTheme({
+    fonts: {
+        heading: `'Roboto Mono', monospace`,
+        body: `'Rubik', sans-serif`,
+        footer:`Eiko-medium`
+    },
     colors: {
-        primary: '#00f8ae',
+        primary: '#1E90FF',
     },
     breakpoints: {
         sm: '320px',
@@ -17,7 +22,7 @@ const theme = extendTheme({
                 xxs: {
                     dialog: {
                         maxW: '45%',
-                        background: 'rgba(104,179,173,.877)',
+                        background: 'rgba(0, 132, 228, 0.5)',
                     },
                 },
             },

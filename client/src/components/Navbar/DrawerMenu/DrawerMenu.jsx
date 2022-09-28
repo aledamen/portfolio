@@ -40,7 +40,7 @@ const DrawerMenu = () => {
             >
                 <DrawerOverlay />
 
-                <DrawerContent>
+                <DrawerContent fontFamily='heading'>
                     <DrawerCloseButton fontSize="1rem" fontWeight="500" />
                     <Flex flexDirection="column" alignItems="center">
                         <Box mt="50px" fontSize="1.1rem" fontWeight="500">
@@ -78,7 +78,7 @@ const DrawerMenu = () => {
                         >
                             <FormControl display="flex" alignItems="center">
                                 EN
-                                <Switch mr="5px" ml="5px" colorScheme="whatsapp" onChange={() => handleLanguage()} />
+                                <Switch mr="5px" ml="5px" colorScheme="facebook" onChange={() => handleLanguage()} />
                                 ES
                             </FormControl>
                         </Box>

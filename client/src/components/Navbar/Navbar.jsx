@@ -8,6 +8,7 @@ import { setLanguage } from '../../store/language'
 import data from '../../../data/data'
 import { motion } from 'framer-motion'
 import ProgressBar from 'react-progressbar-on-scroll'
+import styled from '../../../styles/Fonts.module.css'
 
 const Navbar = () => {
     const str = '< Ad />'
@@ -35,12 +36,11 @@ const Navbar = () => {
                 bg="transparent"
                 zIndex="999"
             >
-                <ProgressBar  color='#00f8ae'/>
-                <Link href="/">
+                <ProgressBar  color='#1E90FF'/>
+                <Link href="#init" color='primary'>
                     <a className={styles.logo}>{str}</a>
                 </Link>
-                <Flex display={{ base: 'none', md: 'flex' }} justifyContent="space-between">
-              
+                <Flex display={{ base: 'none', md: 'flex' }} justifyContent="space-between" fontFamily='heading'>
                     <Box
                         as="span"
                         fontSize="1.1rem"
@@ -48,7 +48,7 @@ const Navbar = () => {
                         fontWeight="500"
                         _hover={{ color: 'primary' }}
                     >
-                        <Link href="/">
+                        <Link href="#init">
                             <a>{data[language].navbar[0]}</a>
                         </Link>
                     </Box>
@@ -59,7 +59,7 @@ const Navbar = () => {
                         fontWeight="500"
                         _hover={{ color: 'primary' }}
                     >
-                        <Link href="/">
+                        <Link href="#aboutMe">
                             <a>{data[language].navbar[1]}</a>
                         </Link>
                     </Box>
@@ -99,7 +99,7 @@ const Navbar = () => {
                     <Box as="span" display="flex" fontSize="1.1rem" fontWeight="500" _hover={{ color: 'primary' }}>
                         <FormControl display="flex" alignItems="center">
                             EN
-                            <Switch mr="5px" ml="5px" colorScheme="whatsapp" onChange={() => handleLanguage()} />
+                            <Switch mr="5px" ml="5px" colorScheme="facebook" onChange={() => handleLanguage()} />
                             ES
                         </FormControl>
                         </Box>                       

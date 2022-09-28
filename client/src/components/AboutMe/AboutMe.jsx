@@ -7,7 +7,7 @@ import { useSelector } from 'react-redux'
 const AboutMe = () => {
     const language = useSelector((state) => state.language)
     return (
-        <Flex flexDirection="column" alignItems={{ md: 'center' }} ml={{ base: '2rem' }}>
+        <Flex flexDirection="column" alignItems={{ md: 'center' }} ml={{ base: '2rem' }} id='aboutMe'>
             <Divider
                 as={motion.hr}
                 borderColor="primary"
@@ -22,9 +22,10 @@ const AboutMe = () => {
                     initial={{ opacity: 0, scale: 0 }}
                     animate={{ opacity: 1, scale: 1 }}
                     transition="background 0.3s ease 0s, opacity 0.6s cubic-bezier(0.5, 0, 0, 1) 0.25s"
-                    fontSize={{ base: '1.8rem', md: '2.1rem' }}
+                    fontSize={{ base: '1.6rem', md: '1.9rem' }}
                     fontWeight="700"
                     color="primary"
+                    fontFamily='heading'
                 >
                     {data[language].aboutMe[0]}
                 </Text>
@@ -33,7 +34,7 @@ const AboutMe = () => {
                     flexDirection="column"
                     alignItems={{ md: 'center' }}
                     mt="4rem"
-                    fontSize={{ base: '1.2rem', md: '1.5rem' }}
+                    fontSize={{ base: '1rem', md: '1.3rem' }}
                     fontWeight="500"
                 >
                     <Text
@@ -42,6 +43,7 @@ const AboutMe = () => {
                         initial={{ opacity: 0 }}
                         whileInView={{ opacity: 1 }}
                         transition="opacity 0.6s cubic-bezier(0.5, 0, 0, 1) 0.25s"
+                        fontWeight="500"
                     >
                         {data[language].aboutMe[1]}
                     </Text>
@@ -51,6 +53,7 @@ const AboutMe = () => {
                         initial={{ opacity: 0 }}
                         whileInView={{ opacity: 1 }}
                         transition="opacity 0.6s cubic-bezier(0.5, 0, 0, 1) 0.35s"
+                        fontWeight="500"
                     >
                         {data[language].aboutMe[2]}
                     </Text>
@@ -60,20 +63,26 @@ const AboutMe = () => {
                         initial={{ opacity: 0 }}
                         whileInView={{ opacity: 1 }}
                         transition="opacity 0.6s cubic-bezier(0.5, 0, 0, 1) 0.45s"
+                        fontWeight="500"
                     >
                         {data[language].aboutMe[3]}
                     </Text>
                     <Button
-                    color="primary"
-                    bg="none"
-                    _hover={{ bg: 'rgba(104,179,173,.4)' }}
-                    m="2rem 0"
-                    w="300px"
-                    h="40px"
-                    border="1px solid #00f8ae"
-                >
-                    {data[language].aboutMe[4]}
-                </Button>
+                        as={motion.button}
+                        initial={{ opacity: 0 }}
+                        whileInView={{ opacity: 1 }}
+                        transition="opacity 0.6s cubic-bezier(0.5, 0, 0, 1) 0.55s"
+                        color="primary"
+                        bg="none"
+                        _hover={{ bg: 'rgba(0, 132, 228, 0.5)' }}
+                        m="3rem 0"
+                        w="300px"
+                        h="40px"
+                        border="1px solid #1E90FF"
+                        fontFamily='heading'
+                    >
+                        {data[language].aboutMe[4]}
+                    </Button>
                 </Flex>
             </Flex>
         </Flex>

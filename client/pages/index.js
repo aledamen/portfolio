@@ -6,11 +6,12 @@ import ProgressBar from 'react-progressbar-on-scroll'
 import ContactLine from '../src/components/ContactLine/ContactLine'
 import Init from '../src/components/Home/Init'
 import { Flex } from '@chakra-ui/react'
+import World from '../src/components/World/World'
 
 export default function Home() {
     return (
         <div className={styles.container}>
-            <ContactLine/>
+            <ContactLine />
             <Navbar />
             <Init/>
             <AboutMe />
