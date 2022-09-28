@@ -23,7 +23,6 @@ const Navbar = () => {
             initial={{ opacity: 0, scale: 0 }}
             animate={{ opacity: 1, scale: 1 }}
             transition="background 0.3s ease 0s, opacity 0.6s cubic-bezier(0.5, 0, 0, 1) 0.25s"
-            width='100vw'
         >
             <Flex
                 as="nav"
