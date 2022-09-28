@@ -28,7 +28,7 @@ const DrawerMenu = () => {
     }
 
     return (
-        <Flex display={{ base: 'block', md: 'none' }} as="nav" bg="none">
+        <Flex display={{ base: 'block', lg: 'none' }} as="nav" bg="none">
             {!isOpen && <HamburgerIcon ref={btnRef} onClick={onOpen} cursor="pointer" w="30px" h="30px" />}
             <Drawer
                 isOpen={isOpen}
@@ -48,29 +48,29 @@ const DrawerMenu = () => {
                             <a>{data[language].navbar[0]}</a>
                             </Link>
                         </Box>
-                        <Box mt="50px" fontSize="1.1rem" fontWeight="500">
+                        <Box mt={{base:"50px", md:"70px"}} fontSize="1.1rem" fontWeight="500">
                             <Link href="/">
                             <a>{data[language].navbar[1]}</a>
                             </Link>
                         </Box>
-                        <Box mt="50px" fontSize="1.1rem" fontWeight="500">
+                        <Box mt={{base:"50px", md:"70px"}} fontSize="1.1rem" fontWeight="500">
                             <Link href="/">
                             <a>{data[language].navbar[2]}</a>
                             </Link>
                         </Box>
-                        <Box mt="50px" fontSize="1.1rem" fontWeight="500">
+                        <Box mt={{base:"50px", md:"70px"}} fontSize="1.1rem" fontWeight="500">
                             <Link href="/">
                                 <a style={{ target: '_blank' }}>{data[language].navbar[3]}</a>
                             </Link>
                         </Box>
-                        <Box mt="50px" fontSize="1.1rem" fontWeight="500">
+                        <Box mt={{base:"50px", md:"70px"}} fontSize="1.1rem" fontWeight="500">
                             <Link href="/">
                             <a>{data[language].navbar[4]}</a>
                             </Link>
                         </Box>
                         <Box
                             as="span"
-                            mt="50px"
+                            mt={{base:"50px", md:"70px"}}
                             display="flex"
                             fontSize="1.1rem"
                             fontWeight="500"

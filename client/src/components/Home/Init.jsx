@@ -12,8 +12,8 @@ const Init = () => {
         <Flex
             pt={{base:"120px", md:"90px"}}
             height={{ base: '700px', md: '800px' }}
-            ml={{ base: '2rem', md: '6rem' }}
-            mr={{ base: '2rem', md: '6rem' }}
+            pl={{ base: '2rem', md: '6rem' }}
+            pr={{ base: '2rem', md: '6rem' }}
             as={motion.div}
             initial={{ opacity: 0, scale: 0 }}
             animate={{ opacity: 1, scale: 1 }}
@@ -44,7 +44,7 @@ const Init = () => {
                 <Button
                     color="primary"
                     bg="none"
-                    _hover={{ bg: 'rgba(0, 132, 228, 0.5)' }}
+                    _hover={{ bg: 'rgba(30, 144, 255, 0.3)' }}
                     m="2rem 0"
                     w={{base:"200px",md:"300px"}}
                     h="40px"

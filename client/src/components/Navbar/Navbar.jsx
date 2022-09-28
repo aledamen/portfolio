@@ -23,6 +23,7 @@ const Navbar = () => {
             initial={{ opacity: 0, scale: 0 }}
             animate={{ opacity: 1, scale: 1 }}
             transition="background 0.3s ease 0s, opacity 0.6s cubic-bezier(0.5, 0, 0, 1) 0.25s"
+            width='100vw'
         >
             <Flex
                 as="nav"
@@ -40,7 +41,7 @@ const Navbar = () => {
                 <Link href="#init" color='primary'>
                     <a className={styles.logo}>{str}</a>
                 </Link>
-                <Flex display={{ base: 'none', md: 'flex' }} justifyContent="space-between" fontFamily='heading'>
+                <Flex display={{ base: 'none', lg: 'flex' }} justifyContent="space-between" fontFamily='heading'>
                     <Box
                         as="span"
                         fontSize="1.1rem"
@@ -99,7 +100,7 @@ const Navbar = () => {
                     <Box as="span" display="flex" fontSize="1.1rem" fontWeight="500" _hover={{ color: 'primary' }}>
                         <FormControl display="flex" alignItems="center">
                             EN
-                            <Switch mr="5px" ml="5px" colorScheme="facebook" onChange={() => handleLanguage()} />
+                            <Switch mr="7px" ml="7px" colorScheme="facebook" onChange={() => handleLanguage()} />
                             ES
                         </FormControl>
                         </Box>                       

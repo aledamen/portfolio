@@ -7,7 +7,7 @@ import { useSelector } from 'react-redux'
 const AboutMe = () => {
     const language = useSelector((state) => state.language)
     return (
-        <Flex flexDirection="column" alignItems={{ md: 'center' }} ml={{ base: '3rem' }} id='aboutMe'>
+        <Flex flexDirection="column" alignItems={{ md: 'center' }} pl={{ base: '3rem' }} id='aboutMe'>
             <Divider
                 as={motion.hr}
                 borderColor="primary"
@@ -74,7 +74,7 @@ const AboutMe = () => {
                         transition="opacity 0.6s cubic-bezier(0.5, 0, 0, 1) 0.55s"
                         color="primary"
                         bg="none"
-                        _hover={{ bg: 'rgba(0, 132, 228, 0.5)' }}
+                        _hover={{ bg: 'rgba(30, 144, 255, 0.3)' }}
                         m="3rem 0"
                         w={{base:"200px",md:"300px"}}
                         h="40px"
