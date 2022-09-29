@@ -5,6 +5,7 @@ import data from '../../../data/data'
 import Typed from 'react-typed'
 import { motion } from 'framer-motion'
 import World from '../World/World'
+import Link from 'next/link'
 
 const Init = () => {
     const language = useSelector((state) => state.language)
@@ -18,7 +19,7 @@ const Init = () => {
             initial={{ opacity: 0, scale: 0 }}
             animate={{ opacity: 1, scale: 1 }}
             transition="background 0.3s ease 0s, opacity 0.6s cubic-bezier(0.5, 0, 0, 1) 0.25s"
-            id='init'
+            id='home'
         >
             <Flex flexDirection="column" mt={{ base: '0', md: '4rem', lg: '6rem' }} ml={{ base: '3', md: '8rem', lg: '10rem' }} mr={{ base: '0'}}>
                 <Text as="p" fontSize={{ base: '1.2rem', md: '1.5rem' }} fontWeight="500" color="primary" mt="0.4rem 0" fontFamily='heading'>
@@ -52,7 +53,10 @@ const Init = () => {
                     fontFamily='heading'
                     fontSize={{base:'1rem', md:'1.2rem'}}
                 >
-                    {data[language].init[5]}
+                    <Link href='#projects'>
+                    <a>{data[language].init[5]}</a>
+                    </Link>
+                    
                 </Button>
             </Flex>
             {/* <World/> */}

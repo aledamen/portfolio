@@ -44,17 +44,17 @@ const DrawerMenu = () => {
                     <DrawerCloseButton fontSize="1rem" fontWeight="500" />
                     <Flex flexDirection="column" alignItems="center">
                         <Box mt="50px" fontSize="1.1rem" fontWeight="500">
-                            <Link href="/">
+                            <Link href="#home" >
                             <a>{data[language].navbar[0]}</a>
                             </Link>
                         </Box>
                         <Box mt={{base:"50px", md:"70px"}} fontSize="1.1rem" fontWeight="500">
-                            <Link href="/">
+                            <Link href="#aboutMe">
                             <a>{data[language].navbar[1]}</a>
                             </Link>
                         </Box>
                         <Box mt={{base:"50px", md:"70px"}} fontSize="1.1rem" fontWeight="500">
-                            <Link href="/">
+                            <Link href="#projects">
                             <a>{data[language].navbar[2]}</a>
                             </Link>
                         </Box>
@@ -77,9 +77,9 @@ const DrawerMenu = () => {
                             _hover={{ color: 'primary' }}
                         >
                             <FormControl display="flex" alignItems="center">
-                                EN
-                                <Switch mr="5px" ml="5px" colorScheme="facebook" onChange={() => handleLanguage()} />
                                 ES
+                                <Switch mr="5px" ml="5px" colorScheme="facebook" onChange={() => handleLanguage()} />
+                                EN
                             </FormControl>
                         </Box>
                     </Flex>

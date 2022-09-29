@@ -7,6 +7,7 @@ import ContactLine from '../src/components/ContactLine/ContactLine'
 import Init from '../src/components/Home/Init'
 import { Flex } from '@chakra-ui/react'
 import World from '../src/components/World/World'
+import Projects from '../src/components/Projects/Projects'
 
 export default function Home() {
     return (
@@ -15,6 +16,7 @@ export default function Home() {
             <Navbar />
             <Init/>
             <AboutMe />
+            <Projects />
             <div style={{height:'100vh', width:'90vw'}}></div>
         </div>
     )

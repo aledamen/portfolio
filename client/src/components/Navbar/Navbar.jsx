@@ -48,7 +48,7 @@ const Navbar = () => {
                         fontWeight="500"
                         _hover={{ color: 'primary' }}
                     >
-                        <Link href="#init">
+                        <Link href="#home">
                             <a>{data[language].navbar[0]}</a>
                         </Link>
                     </Box>
@@ -70,7 +70,7 @@ const Navbar = () => {
                         fontWeight="500"
                         _hover={{ color: 'primary' }}
                     >
-                        <Link href="/">
+                        <Link href="#projects">
                             <a>{data[language].navbar[2]}</a>
                         </Link>
                     </Box>
@@ -98,9 +98,9 @@ const Navbar = () => {
                     </Box>
                     <Box as="span" display="flex" fontSize="1.1rem" fontWeight="500" _hover={{ color: 'primary' }}>
                         <FormControl display="flex" alignItems="center">
-                            EN
-                            <Switch mr="7px" ml="7px" colorScheme="facebook" onChange={() => handleLanguage()} />
                             ES
+                            <Switch mr="7px" ml="7px" colorScheme="facebook" onChange={() => handleLanguage()} />
+                            EN
                         </FormControl>
                         </Box>                       
                 </Flex>
