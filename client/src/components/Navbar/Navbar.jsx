@@ -46,7 +46,7 @@ const Navbar = () => {
                         fontSize="1.1rem"
                         mr={{ base: '20px', lg: '50px' }}
                         fontWeight="500"
-                        _hover={{ color: 'primary' }}
+                        _hover={{ color: 'primary'}}
                     >
                         <Link href="#home">
                             <a>{data[language].navbar[0]}</a>
@@ -57,7 +57,7 @@ const Navbar = () => {
                         fontSize="1.1rem"
                         mr={{ base: '20px', lg: '50px' }}
                         fontWeight="500"
-                        _hover={{ color: 'primary' }}
+                        _hover={{ color: 'primary'}}
                     >
                         <Link href="#aboutMe">
                             <a>{data[language].navbar[1]}</a>
@@ -68,7 +68,7 @@ const Navbar = () => {
                         fontSize="1.1rem"
                         mr={{ base: '20px', lg: '50px' }}
                         fontWeight="500"
-                        _hover={{ color: 'primary' }}
+                        _hover={{ color: 'primary'}}
                     >
                         <Link href="#projects">
                             <a>{data[language].navbar[2]}</a>
@@ -79,7 +79,7 @@ const Navbar = () => {
                         fontSize="1.1rem"
                         mr={{ base: '20px', lg: '50px' }}
                         fontWeight="500"
-                        _hover={{ color: 'primary' }}
+                        _hover={{ color: 'primary'}}
                     >
                         <Link href="/">
                             <a>{data[language].navbar[3]}</a>
@@ -90,7 +90,7 @@ const Navbar = () => {
                         fontSize="1.1rem"
                         mr={{ base: '20px', lg: '50px' }}
                         fontWeight="500"
-                        _hover={{ color: 'primary' }}
+                        _hover={{ color: 'primary'}}
                     >
                         <Link href="/">
                             <a>{data[language].navbar[4]}</a>

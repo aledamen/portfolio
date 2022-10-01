@@ -14,7 +14,7 @@ const AboutMe = () => {
                 width="72%"
                 initial={{ opacity: 0, scale: 0 }}
                 animate={{ opacity: 1, scale: 1 }}
-                transition="background 0.3s ease 0s, opacity 0.6s cubic-bezier(0.5, 0, 0, 1) 0.25s"
+                transition="background 0.3s ease 0s, opacity 0.6s cubic-bezier(0.5, 0, 0, 1) 0.15s"
             />
             <Text
                 as={motion.p}
@@ -43,7 +43,7 @@ const AboutMe = () => {
                     ml={{base:'0',lg:'10rem'}}
                 >
                     <Box height={{base:'270px',lg:"300px"}}>
-                    <Box opacity='0.2' bg='primary' _hover={{bg:'none'}} width={{base:'200px',lg:"230px"}}
+                    <Box opacity='0.2' bg='primary' _hover={{bg:'none', transition: '.5s linear'}} width={{base:'200px',lg:"230px"}}
                         height={{base:'270px',lg:"300px"}} position='absolute' borderRadius="7px"></Box>
                     <Image
                         src="/assets/images/me.jpeg"

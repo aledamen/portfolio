@@ -18,7 +18,7 @@ function MyApp({ Component, pageProps }) {
   }, [])
 
   return (
-      <div style={{backgroundColor:'#00000'}}>
+      <div style={{backgroundColor:'#011129'}}>
       {!loading ? (
         <Provider store={store}>
               <ChakraProvider theme={theme}>
@@ -27,7 +27,7 @@ function MyApp({ Component, pageProps }) {
         </Provider>
           ) : (
               <Loader/>
-          )}
+      )}
       </div>
   )
 }
