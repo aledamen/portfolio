@@ -1,4 +1,4 @@
-import { Box, Button, Divider, Flex, Grid, GridItem, Image, StylesProvider, Text } from '@chakra-ui/react'
+import { Box, Button, Divider, Flex, Grid, Image, Text } from '@chakra-ui/react'
 import { motion } from 'framer-motion'
 import React from 'react'
 import { useSelector } from 'react-redux'
