@@ -17,7 +17,6 @@ export default function Home() {
             <Init/>
             <AboutMe />
             <Projects />
-            <div style={{height:'100vh', width:'90vw'}}></div>
         </div>
     )
 }

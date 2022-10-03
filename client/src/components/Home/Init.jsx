@@ -5,72 +5,31 @@ import data from '../../../data/data'
 import Typed from 'react-typed'
 import { motion } from 'framer-motion'
 import Link from 'next/link'
-import styles from '../Home/Init.module.css'
+import Tag from '../TagCloud/Tag'
 
 const Init = () => {
     const language = useSelector((state) => state.language)
-    const ref = useRef(null)
-    const myTags = [
-        'JavaScript',
-        'CSS',
-        'HTML',
-        'C',
-        'C++',
-        'React',
-        'Python',
-        'Java',
-        'git',
-        'django',
-        'Node.js',
-        'OpenCV',
-        'GCP',
-        'MySQL',
-        'jQuery',
-    ]
-
-    setTimeout(() => {
-        const el = ref.current?.children.length
-        if (!el) {const tagCloud = TagCloud('#content', myTags, {
-            // radius in px
-            radius: 300,
-
-            // animation speed
-            // slow, normal, fast
-            maxSpeed: 'fast',
-            initSpeed: 'fast',
-            containerClass: styles.content,
-            itemClass: styles.tags,
-            // 0 = top
-            // 90 = left
-            // 135 = right-bottom
-            direction: 135,
-
-            // interact with cursor move on mouse out
-            keep: true,
-        })
-        } 
-    }, 3000)
-
     return (
-        <Flex flexDirection={{base:'column', xl:'row'}}>
-            {/* <Script src="https://cdn.jsdelivr.net/npm/TagCloud@2.2.0/dist/TagCloud.min.js" /> */}
+        <Flex
+            id="home"
+            as={motion.div}
+            initial={{ opacity: 0, scale: 0 }}
+            animate={{ opacity: 1, scale: 1 }}
+            transition="background 0.3s ease 0s, opacity 0.6s cubic-bezier(0.5, 0, 0, 1) 0.25s"
+        >
             <Flex
                 pt={{ base: '120px', md: '90px' }}
                 height={{ base: '700px', md: '800px' }}
+                width={{ base: '200px', md: '700px', lg: '900px', xl: '1200px' }}
                 pl={{ base: '2rem', md: '6rem' }}
                 pr={{ base: '2rem', md: '6rem' }}
-                as={motion.div}
-                initial={{ opacity: 0, scale: 0 }}
-                animate={{ opacity: 1, scale: 1 }}
-                transition="background 0.3s ease 0s, opacity 0.6s cubic-bezier(0.5, 0, 0, 1) 0.25s"
-                id="home"
             >
                 <Flex
                     flexDirection="column"
                     mt={{ base: '0', md: '4rem', lg: '6rem' }}
-                    ml={{ base: '3', md: '6rem', lg: '8rem', xl:'6rem', xxxl:'15rem'}}
+                    ml={{ base: '2rem', m: '6rem', md: '8rem', lg: '8rem', xl: '6rem', xxxl: '16rem' }}
                     mr={{ base: '0' }}
-                    w={{ base: '300px', md: '500px', lg: '600px', xl: '700px' }}
+                    w={{ base: '300px', md: '500px', lg: '500px', xl: '700px' }}
                 >
                     <Text
                         as="p"
@@ -113,11 +72,9 @@ const Init = () => {
                             <a>{data[language].init[5]}</a>
                         </Link>
                     </Button>
-                    
                 </Flex>
-                {/* <World/> */}
             </Flex>
-            <Box ref={ref} className={styles.content} id="content" display={{ base: 'none', xml:'flex'}}></Box>
+            <Tag/>
         </Flex>
     )
 }

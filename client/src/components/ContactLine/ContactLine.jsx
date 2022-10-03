@@ -10,7 +10,7 @@ import { Whatsapp } from '../../../public/assets/icons/whatsapp'
 const ContactLine = () => {
     return (
         <Flex
-            display={{ base: 'none', lg: 'flex' }}
+            display={{ base: 'none', md: 'flex' }}
             flexDirection="column"
             position="fixed"
             left="3rem"
