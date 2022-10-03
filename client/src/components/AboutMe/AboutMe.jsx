@@ -34,10 +34,6 @@ const AboutMe = () => {
                     flexDirection="column"
                     alignItems="center"
                     justifyContent="center"
-                    // as={motion.div}
-                    // initial={{ opacity: 0 }}
-                    // whileInView={{ opacity: 1 }}
-                    // transition="opacity 0.6s cubic-bezier(0.5, 0, 0, 1) 1s"
                     mt={{ base: '2rem', md: '4.5rem' }}
                     ml={{ base: '0', lg: '10rem' }}
                 >
@@ -47,8 +43,8 @@ const AboutMe = () => {
                             opacity="0.2"
                             bg="primary"
                             _hover={{ bg: 'none', transition: '.5s linear' }}
-                            width={{ base: '200px', lg: '230px' }}
-                            height={{ base: '270px', lg: '300px' }}
+                            width={{ base: '180px', lg: '230px' }}
+                            height={{ base: '240px', lg: '300px' }}
                             position="absolute"
                             borderRadius="7px"
                             initial={{ opacity: 0 }}
@@ -61,8 +57,8 @@ const AboutMe = () => {
                             alt="Alejandro D'Amen"
                             as={motion.img}
                             src="/assets/images/me.jpeg"
-                            width={{ base: '200px', lg: '230px' }}
-                            height={{ base: '270px', lg: '300px' }}
+                            width={{ base: '180px', lg: '230px' }}
+                            height={{ base: '240px', lg: '300px' }}
                             border="1px solid #1E90FF"
                             borderRadius="7px"
                             initial={{ opacity: 0 }}
@@ -97,7 +93,8 @@ const AboutMe = () => {
                     fontSize={{ base: '1rem', md: '1.1rem' }}
                     fontWeight="500"
                     width={{ base: '100%', lg: '40%' }}
-                    pl={{ base: '0rem', md: '2rem', lg: '5rem' }}
+                    pl={{ base: '.5rem', md: '2rem', lg: '5rem' }}
+                    pr={{base: '.5rem'}}
                 >
                     <Text
                         as={motion.p}

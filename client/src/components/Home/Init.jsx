@@ -20,7 +20,7 @@ const Init = () => {
             <Flex
                 pt={{ base: '120px', md: '90px' }}
                 height={{ base: '700px', md: '800px' }}
-                width={{ base: '200px', md: '700px', lg: '900px', xl: '1200px' }}
+                width={{ base: '350px', md: '700px', lg: '900px', xl: '1200px' }}
                 pl={{ base: '2rem', md: '6rem' }}
                 pr={{ base: '2rem', md: '6rem' }}
             >
@@ -29,7 +29,7 @@ const Init = () => {
                     mt={{ base: '0', md: '4rem', lg: '6rem' }}
                     ml={{ base: '2rem', m: '6rem', md: '8rem', lg: '8rem', xl: '6rem', xxxl: '16rem' }}
                     mr={{ base: '0' }}
-                    w={{ base: '300px', md: '500px', lg: '500px', xl: '700px' }}
+                    w={{ base: '400px', md: '500px', lg: '500px', xl: '700px' }}
                 >
                     <Text
                         as="p"
@@ -74,7 +74,7 @@ const Init = () => {
                     </Button>
                 </Flex>
             </Flex>
-            <Tag/>
+            <Tag />
         </Flex>
     )
 }

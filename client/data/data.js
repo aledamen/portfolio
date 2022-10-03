@@ -23,7 +23,10 @@ const data = {
             'I am a proactive, dedicated and responsible person. In my work experiences, teamwork was always important and each one of them helped me to grow.',
             'Download Resume',
         ],
-        projects: ['Projects'],
+        projects: {
+            title: 'Projects',
+            projects: [],
+        },
     },
     es: {
         navbar: ['Inicio', 'Sobre mí', 'Proyectos', 'Tecnologías', 'Contacto'],
@@ -49,7 +52,15 @@ const data = {
             'Soy una persona pro activa, dedicada y responsable. En mis experiencias laborales siempre fue importante tanto el trabajo en equipo como la comunicación y cada una de ellas me ayudaron a crecer personalmente.',
             'Descargar CV',
         ],
-        projects: ['Proyectos'],
+        projects: {
+            title: 'Proyectos',
+            projects: [
+                { name: 'Portfolio', path: '/assets/images/portfolio.png', description: 'este es el portfolio' },
+                { name: 'RevistaWOW', path: '/assets/images/revistaWOW.png', description: 'esta es la revista WOW' },
+                { name: 'Pasion Argenta', path: '/assets/images/e-commerce.png', description: 'este es el e-commerce' },
+                { name: 'TMDB', path: '/assets/images/TMDB.png', description: 'este es la TMDB' },
+            ],
+        },
     },
 }
 
