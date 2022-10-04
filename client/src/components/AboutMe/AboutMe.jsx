@@ -38,7 +38,7 @@ const AboutMe = () => {
                     ml={{ base: '0', lg: '10rem' }}
                 >
                     <Box height={{ base: '270px', lg: '300px' }}>
-                        <Box
+                        {/* <Box
                             as={motion.div}
                             opacity="0.2"
                             bg="primary"
@@ -52,7 +52,7 @@ const AboutMe = () => {
                             transition="opacity 0.6s cubic-bezier(0.5, 0, 0, 1) 0.15s"
                         >
                             
-                        </Box>
+                        </Box> */}
                         <Image
                             alt="Alejandro D'Amen"
                             as={motion.img}

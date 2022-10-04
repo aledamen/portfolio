@@ -25,7 +25,40 @@ const data = {
         ],
         projects: {
             title: 'Projects',
-            projects: [],
+            projects: [
+                {
+                    name: 'Portfolio',
+                    path: '/assets/images/portfolio.png',
+                    linkGit: 'https://github.com/aledamen/portfolio',
+                    linkWeb: '#home',
+                    description: 'Mi Primer portfolio personal, utilizando:',
+                    skills: ['Next.js', 'ChakraUI'],
+                },
+                {
+                    name: 'RevistaWOW',
+                    path: '/assets/images/revistaWOW.png',
+                    linkGit: '#home',
+                    linkWeb: 'https://p5-wow-git-develop-joaquinreiners.vercel.app/',
+                    description: 'Proyecto profesional en un equipo SCRUM de 5, durante un mes para Hogarth WorldWide, utilizando:',
+                    skills: ['Node.js', 'Strapi', 'MongoDB', 'Next.js', 'ChakraUI'],
+                },
+                {
+                    name: 'Pasion Argenta',
+                    path: '/assets/images/e-commerce.png',
+                    linkGit: 'https://github.com/aledamen/E-Commerce-Pasion-Argenta',
+                    linkWeb: '#home',
+                    description: 'Proyecto en un equipo SCRUM de 5 durante dos semanas, utilizando:',
+                    skills: ['Node.js', 'Express', 'MongoDB','JWT', 'React.js', 'MaterialUI'],
+                },
+                {
+                    name: 'TMDB',
+                    path: '/assets/images/TMDB.png',
+                    linkGit: 'https://github.com/aledamen/TMDB.',
+                    linkWeb: '#home',
+                    description: 'Proyecto individual durante una semana, utilizando:',
+                    skills: ['Node.js', 'Express', 'MongoDB', 'JWT', 'React.js', 'SASS']
+                },
+            ],
         },
     },
     es: {
@@ -55,10 +88,38 @@ const data = {
         projects: {
             title: 'Proyectos',
             projects: [
-                { name: 'Portfolio', path: '/assets/images/portfolio.png', description: 'este es el portfolio' },
-                { name: 'RevistaWOW', path: '/assets/images/revistaWOW.png', description: 'esta es la revista WOW' },
-                { name: 'Pasion Argenta', path: '/assets/images/e-commerce.png', description: 'este es el e-commerce' },
-                { name: 'TMDB', path: '/assets/images/TMDB.png', description: 'este es la TMDB' },
+                {
+                    name: 'Portfolio',
+                    path: '/assets/images/portfolio.png',
+                    linkGit: 'https://github.com/aledamen/portfolio',
+                    linkWeb: '#home',
+                    description: 'Mi Primer portfolio personal.',
+                    skills: ['Next.js', 'ChakraUI'],
+                },
+                {
+                    name: 'RevistaWOW',
+                    path: '/assets/images/revistaWOW.png',
+                    linkGit: '#home',
+                    linkWeb: 'https://p5-wow-git-develop-joaquinreiners.vercel.app/',
+                    description: 'Proyecto profesional en un equipo SCRUM de cinco integrantes, durante un mes para Hogarth WorldWide.',
+                    skills: ['Node.js', 'Strapi', 'MongoDB', 'Next.js', 'ChakraUI'],
+                },
+                {
+                    name: 'Pasion Argenta',
+                    path: '/assets/images/e-commerce.png',
+                    linkGit: 'https://github.com/aledamen/E-Commerce-Pasion-Argenta',
+                    linkWeb: '#home',
+                    description: 'Proyecto en un equipo SCRUM de cinco integrantes, durante dos semanas.',
+                    skills: ['Node.js', 'Express', 'MongoDB','JWT', 'React.js', 'MaterialUI'],
+                },
+                {
+                    name: 'TMDB',
+                    path: '/assets/images/TMDB.png',
+                    linkGit: 'https://github.com/aledamen/TMDB.',
+                    linkWeb: '#home',
+                    description: 'Proyecto individual durante una semana.',
+                    skills: ['Node.js', 'Express', 'MongoDB', 'JWT', 'React.js', 'SASS']
+                },
             ],
         },
     },

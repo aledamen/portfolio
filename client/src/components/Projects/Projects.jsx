@@ -1,8 +1,11 @@
 import { Box, Button, Divider, Flex, Grid, Image, Text } from '@chakra-ui/react'
 import { motion } from 'framer-motion'
+import Link from 'next/link'
 import React from 'react'
 import { useSelector } from 'react-redux'
 import data from '../../../data/data'
+import { Github } from '../../../public/assets/icons/github'
+import { Website } from '../../../public/assets/icons/website'
 import styles from './Project.module.scss'
 
 const Projects = () => {
@@ -189,7 +192,14 @@ const Projects = () => {
                                 className={styles.mainImg}
                             />
                             <Box className={styles.info}>
-                                <Text className={styles.title} fontSize={{ base: '1.1rem', md: '1.3rem' }} fontWeight='500' fontFamily='heading'>{ele.name}</Text>
+                                <Text
+                                    className={styles.title}
+                                    fontSize={{ base: '1.1rem', md: '1.3rem' }}
+                                    fontWeight="500"
+                                    fontFamily="heading"
+                                >
+                                    {ele.name}
+                                </Text>
                                 <Text
                                     as="p"
                                     maxW="500px"
@@ -198,9 +208,43 @@ const Projects = () => {
                                     fontSize={{ base: '0.8rem', md: '1rem' }}
                                     className={styles.description}
                                 >
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, fuga. Repellendus
-                                    molestias eos, illum vero dolore amet temporibus odit eligendi.
+                                    {ele.description}
                                 </Text>
+                                <Box mt="1rem" >
+                                    {ele.skills.map((skill, i) => {
+                                        return (
+                                            <Text
+                                                key={i}
+                                                as="span"
+                                                mr="1rem"
+                                                maxW="500px"
+                                                color="primary"
+                                                fontSize={{ base: '1.1rem', md: '1.3rem' }}
+                                                className={styles.description}
+                                                fontFamily='body'
+                                                fontWeight='600'
+                                            >
+                                                {skill}
+                                            </Text>
+                                        )
+                                    })}
+                                </Box>
+                                <Flex w="30px" h="30px" fill="primary" cursor="pointer" mt="2rem" ml="5px">
+                                    <Box mr="2rem">
+                                        <Link href={ele.linkGit}>
+                                            <a target="_blank">
+                                                <Github w="25px" h="25px" fill="white" _hover={{ fill: 'primary' }} />
+                                            </a>
+                                        </Link>
+                                    </Box>
+                                    <Box>
+                                        <Link href={ele.linkWeb}>
+                                            <a target="_blank">
+                                                <Website w="25px" h="24px" fill="white" _hover={{ fill: 'primary' }} />
+                                            </a>
+                                        </Link>
+                                    </Box>
+                                </Flex>
                             </Box>
                         </Box>
                     )
