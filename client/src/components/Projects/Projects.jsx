@@ -42,7 +42,7 @@ const Projects = () => {
                 mr={{ base: '2rem', md: '6rem', lg: '6rem' }}
                 pl={{ base: '.5rem' }}
                 pr={{ base: '.5rem' }}
-                mb="2rem"
+                mb="4.5rem"
             >
                 {/* <Box
                     // boxShadow="0px 7px 10px rgba(black, 0.5)"
@@ -194,7 +194,7 @@ const Projects = () => {
                             <Box className={styles.info}>
                                 <Text
                                     className={styles.title}
-                                    fontSize={{ base: '1.1rem', md: '1.3rem' }}
+                                    fontSize={{ base: '1rem', md: '1.2rem' }}
                                     fontWeight="500"
                                     fontFamily="heading"
                                 >
@@ -207,19 +207,21 @@ const Projects = () => {
                                     fontFamily="body"
                                     fontSize={{ base: '0.8rem', md: '1rem' }}
                                     className={styles.description}
+                                    mt={{base:".5rem", md:"1rem"}}
+                                    // ml={{base:"1rem", md:"2rem"}}
                                 >
                                     {ele.description}
                                 </Text>
-                                <Box mt="1rem" >
+                                <Box mt={{base:".5rem", md:"1rem"}} >
                                     {ele.skills.map((skill, i) => {
                                         return (
                                             <Text
                                                 key={i}
                                                 as="span"
-                                                mr="1rem"
+                                                mr=".8rem"
                                                 maxW="500px"
                                                 color="primary"
-                                                fontSize={{ base: '1.1rem', md: '1.3rem' }}
+                                                fontSize={{ base: '0.8rem', md: '1rem' }}
                                                 className={styles.description}
                                                 fontFamily='body'
                                                 fontWeight='600'
@@ -229,18 +231,18 @@ const Projects = () => {
                                         )
                                     })}
                                 </Box>
-                                <Flex w="30px" h="30px" fill="primary" cursor="pointer" mt="2rem" ml="5px">
+                                <Flex w="30px" h="30px" fill="primary" cursor="pointer" mt="1rem" ml="5px">
                                     <Box mr="2rem">
                                         <Link href={ele.linkGit}>
                                             <a target="_blank">
-                                                <Github w="25px" h="25px" fill="white" _hover={{ fill: 'primary' }} />
+                                                <Github w={{base:"20px", md:"25px"}} h={{base:"20px", md:"25px"}} fill="white" _hover={{ fill: 'primary' }} />
                                             </a>
                                         </Link>
                                     </Box>
                                     <Box>
                                         <Link href={ele.linkWeb}>
                                             <a target="_blank">
-                                                <Website w="25px" h="24px" fill="white" _hover={{ fill: 'primary' }} />
+                                                <Website w={{base:"20px", md:"25px"}} h={{base:"19px", md:"24px"}} fill="white" _hover={{ fill: 'primary' }} />
                                             </a>
                                         </Link>
                                     </Box>

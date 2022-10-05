@@ -102,7 +102,7 @@ const data = {
                     linkGit: '#home',
                     linkWeb: 'https://p5-wow-git-develop-joaquinreiners.vercel.app/',
                     description: 'Proyecto profesional en un equipo SCRUM de cinco integrantes, durante un mes para Hogarth WorldWide.',
-                    skills: ['Node.js', 'Strapi', 'MongoDB', 'Next.js', 'ChakraUI'],
+                    skills: ['Strapi', 'MongoDB', 'Next.js', 'ChakraUI'],
                 },
                 {
                     name: 'Pasion Argenta',
@@ -110,7 +110,7 @@ const data = {
                     linkGit: 'https://github.com/aledamen/E-Commerce-Pasion-Argenta',
                     linkWeb: '#home',
                     description: 'Proyecto en un equipo SCRUM de cinco integrantes, durante dos semanas.',
-                    skills: ['Node.js', 'Express', 'MongoDB','JWT', 'React.js', 'MaterialUI'],
+                    skills: ['Node.js', 'MongoDB', 'React.js', 'MaterialUI'],
                 },
                 {
                     name: 'TMDB',
@@ -118,7 +118,7 @@ const data = {
                     linkGit: 'https://github.com/aledamen/TMDB.',
                     linkWeb: '#home',
                     description: 'Proyecto individual durante una semana.',
-                    skills: ['Node.js', 'Express', 'MongoDB', 'JWT', 'React.js', 'SASS']
+                    skills: ['Node.js', 'MongoDB', 'React.js', 'SASS']
                 },
             ],
         },
