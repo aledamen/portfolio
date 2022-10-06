@@ -3,6 +3,7 @@ import { motion } from 'framer-motion'
 import data from '../../../data/data'
 import React from 'react'
 import { useSelector } from 'react-redux'
+import Link from 'next/link'
 
 const AboutMe = () => {
     const language = useSelector((state) => state.language)
@@ -82,7 +83,9 @@ const AboutMe = () => {
                         fontSize={{ base: '1rem', md: '1.2rem' }}
                         display={{ base: 'none', lg: 'flex' }}
                     >
-                        {data[language].aboutMe[4]}
+                        <Link href="https://drive.google.com/uc?id=1KxfgH9Y5IDtMGUaytsdI-rANronj-0ZP&export=download">
+                            <a> {data[language].aboutMe[4]}</a>
+                        </Link>
                     </Button>
                 </Flex>
                 <Flex
@@ -94,7 +97,7 @@ const AboutMe = () => {
                     fontWeight="500"
                     width={{ base: '100%', lg: '40%' }}
                     pl={{ base: '.5rem', md: '2rem', lg: '5rem' }}
-                    pr={{base: '.5rem'}}
+                    pr={{ base: '.5rem' }}
                 >
                     <Text
                         as={motion.p}
@@ -142,7 +145,9 @@ const AboutMe = () => {
                         fontSize={{ base: '1rem', md: '1.2rem' }}
                         display={{ base: 'flex', lg: 'none' }}
                     >
-                        {data[language].aboutMe[4]}
+                        <Link href="https://drive.google.com/uc?id=1KxfgH9Y5IDtMGUaytsdI-rANronj-0ZP&export=download">
+                            <a> {data[language].aboutMe[4]}</a>
+                        </Link>
                     </Button>
                 </Flex>
             </Flex>

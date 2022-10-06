@@ -8,7 +8,7 @@ import Link from 'next/link'
 const Contact = () => {
     const language = useSelector((state) => state.language)
     return (
-        <Flex flexDirection="column" alignItems="center" id="skills">
+        <Flex flexDirection="column" alignItems="center" id="contact">
             <Divider
                 as={motion.hr}
                 borderColor="primary"
@@ -27,21 +27,20 @@ const Contact = () => {
                 color="primary"
                 fontFamily="heading"
                 mt={{ base: '2rem', md: '4rem' }}
-                mb={{ base: '0rem', md: '2rem' }}
+                mb={{ base: '0rem', md: '1rem' }}
             >
                 {data[language].contact.title}
             </Text>
             <Flex justifyContent="center" alignItems="center" flexDirection="column">
                 <Text
-                    mt='3rem'
+                    mt='2rem'
                     as={motion.p}
                     transition="opacity 0.6s cubic-bezier(0.5, 0, 0, 1) 0.15s"
                     initial={{ opacity: 0 }}
                     whileInView={{ opacity: 1 }}
                     textAlign="center"
-                    w="40%"
+                    w="60%"
                     fontSize={{ base: '1rem', md: '1.2rem' }}
-                    opacity="0.3"
                 >
                     {data[language].contact.description[0]}
                 </Text>
@@ -51,8 +50,8 @@ const Contact = () => {
                     initial={{ opacity: 0 }}
                     whileInView={{ opacity: 1 }}
                     textAlign="center"
-                    w="60%"
-                    mt='1rem'
+                    // w="100%"
+                    mt='1.5rem'
                     fontFamily='heading'
                     fontSize={{ base: '1.2rem', md: '1.4rem' }}
                     opacity="0.3"

@@ -64,7 +64,7 @@ const DrawerMenu = () => {
                             </Link>
                         </Box>
                         <Box mt={{base:"50px", md:"70px"}} fontSize="1.1rem" fontWeight="500">
-                            <Link href="/">
+                            <Link href="#contact">
                             <a>{data[language].navbar[4]}</a>
                             </Link>
                         </Box>

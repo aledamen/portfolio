@@ -68,6 +68,10 @@ const data = {
             title: 'Contact',
             description: ['I am always open to listen to proposals, talk about technology or sports.', 'Why not have a coffee?'],
             button:'Contact me'
+        },
+        footer: {
+            title: 'Made with',
+            copyright:"Site developed by Alejandro D'Amen 2022"
         }
     },
     es: {
@@ -139,6 +143,10 @@ const data = {
             title: 'Contacto',
             description: ['Siempre estoy abierto a escuchar propuestas, hablar sobre tecnología o deporte.', '¿Por qué no tomarnos un café?'],
             button:'Contactame'
+        },
+        footer: {
+            title: 'Hecho con',
+            copyright: "Sitio desarrollado por Alejandro D'Amen 2022"
         }
     },
 }

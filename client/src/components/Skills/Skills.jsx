@@ -48,9 +48,12 @@ const Skills = () => {
                             initial={{ opacity: 0 }}
                             whileInView={{ opacity: 1 }}
                             key={i}
+                            filter='grayscale(2)'
+                            _hover={{filter:'grayscale(0)'}}
                         >
                             <Image
                                 src={skill}
+                                alt='skill'
                                 w={{ base: '152px', m: '190px', md: '235px' }}
                                 h={{ base: '65px', m: '81px', md: '101px' }}
                             />
