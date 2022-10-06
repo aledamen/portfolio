@@ -80,7 +80,7 @@ const data = {
         ],
         aboutMe: [
             'Sobre mí',
-            'Desde chico siempre fui un apasionado por la tecnología y el deporte. Durante 6 años trabajé como Profesor de Educación Física.',
+            'Desde chico fui un apasionado por la tecnología y el deporte. Durante 6 años trabajé como Profesor de Educación Física.',
             'Luego decidí dar un giro a mi carrera e hice un bootcamp de programación en Plataforma 5, compuesto por mas de 800hs durante 4 meses, trabajando en pair programming y en equipos, aplicando metodologías ágiles como SCRUM, lo cual me ayudó a fortalecer tanto mis habilidades duras como blandas.',
             'Soy una persona pro activa, dedicada y responsable. En mis experiencias laborales siempre fue importante tanto el trabajo en equipo como la comunicación y cada una de ellas me ayudaron a crecer personalmente.',
             'Descargar CV',
@@ -101,7 +101,7 @@ const data = {
                     path: '/assets/images/revistaWOW.png',
                     linkGit: '#home',
                     linkWeb: 'https://p5-wow-git-develop-joaquinreiners.vercel.app/',
-                    description: 'Proyecto profesional en un equipo SCRUM de cinco integrantes, durante un mes para Hogarth WorldWide.',
+                    description: 'Proyecto profesional para Hogarth WorldWide.',
                     skills: ['Strapi', 'MongoDB', 'Next.js', 'ChakraUI'],
                 },
                 {
@@ -109,7 +109,7 @@ const data = {
                     path: '/assets/images/e-commerce.png',
                     linkGit: 'https://github.com/aledamen/E-Commerce-Pasion-Argenta',
                     linkWeb: '#home',
-                    description: 'Proyecto en un equipo SCRUM de cinco integrantes, durante dos semanas.',
+                    description: 'Proyecto en un equipo SCRUM de cinco integrantes.',
                     skills: ['Node.js', 'MongoDB', 'React.js', 'MaterialUI'],
                 },
                 {

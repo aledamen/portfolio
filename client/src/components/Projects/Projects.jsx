@@ -37,12 +37,12 @@ const Projects = () => {
             <Grid
                 templateColumns={{ base: 'repeat(1, 1fr)', xl: 'repeat(2, 1fr)' }}
                 gap={{ base: '8', md: '10', lg: '12' }}
-                mt="3rem"
+                mt='3rem'
                 ml={{ base: '2rem', md: '6rem', lg: '6rem' }}
                 mr={{ base: '2rem', md: '6rem', lg: '6rem' }}
                 pl={{ base: '.5rem' }}
                 pr={{ base: '.5rem' }}
-                mb="4.5rem"
+                mb="8rem"
             >
                 {/* <Box
                     // boxShadow="0px 7px 10px rgba(black, 0.5)"
@@ -191,10 +191,10 @@ const Projects = () => {
                                 whileInView={{ opacity: 1 }}
                                 className={styles.mainImg}
                             />
-                            <Box className={styles.info}>
+                            <Box className={styles.info} mt={{base:'3rem'}}>
                                 <Text
                                     className={styles.title}
-                                    fontSize={{ base: '1rem', md: '1.2rem' }}
+                                    fontSize={{ base: '1.1rem', md: '1.3rem' }}
                                     fontWeight="500"
                                     fontFamily="heading"
                                 >
@@ -207,12 +207,12 @@ const Projects = () => {
                                     fontFamily="body"
                                     fontSize={{ base: '0.8rem', md: '1rem' }}
                                     className={styles.description}
-                                    mt={{base:".5rem", md:"1rem"}}
+                                    mt={{base:".5rem", md:".5rem"}}
                                     // ml={{base:"1rem", md:"2rem"}}
                                 >
                                     {ele.description}
                                 </Text>
-                                <Box mt={{base:".5rem", md:"1rem"}} >
+                                <Box mt={{base:".5rem", md:".8rem"}} >
                                     {ele.skills.map((skill, i) => {
                                         return (
                                             <Text
@@ -235,7 +235,7 @@ const Projects = () => {
                                     <Box mr="2rem">
                                         <Link href={ele.linkGit}>
                                             <a target="_blank">
-                                                <Github w={{base:"20px", md:"25px"}} h={{base:"20px", md:"25px"}} fill="white" _hover={{ fill: 'primary' }} />
+                                                <Github w={{base:"21px", md:"25px"}} h={{base:"21px", md:"25px"}} fill="white" _hover={{ fill: 'primary' }} />
                                             </a>
                                         </Link>
                                     </Box>
