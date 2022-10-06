@@ -32,7 +32,7 @@ const Skills = () => {
             </Text>
             <Grid
                 templateColumns={{ base: 'repeat(2, 1fr)', xl: 'repeat(4, 1fr)' }}
-                gap={{ base: '4', md: '6', lg: '8' }}
+                gap={{ base: '8', md: '12', lg: '20' }}
                 mt="3rem"
                 ml={{ base: '2rem', md: '6rem', lg: '6rem' }}
                 mr={{ base: '2rem', md: '6rem', lg: '6rem' }}
@@ -44,12 +44,12 @@ const Skills = () => {
                     return (
                         <Box
                             as={motion.div}
-                            transition="opacity 0.6s cubic-bezier(0.5, 0, 0, 1) 0.15s"
                             initial={{ opacity: 0 }}
                             whileInView={{ opacity: 1 }}
                             key={i}
                             filter='grayscale(2)'
-                            _hover={{filter:'grayscale(0)'}}
+                            transition='all .4s ease-in-out'
+                            _hover={{ filter: 'grayscale(0)', transform:'scale(1.07)',  }}
                         >
                             <Image
                                 src={skill}

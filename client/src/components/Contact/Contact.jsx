@@ -4,6 +4,10 @@ import data from '../../../data/data'
 import React from 'react'
 import { useSelector } from 'react-redux'
 import Link from 'next/link'
+import { Mail } from '../../../public/assets/icons/mail'
+import { Whatsapp } from '../../../public/assets/icons/whatsapp'
+import { Linkedin } from '../../../public/assets/icons/linkedin'
+import { Github } from '../../../public/assets/icons/github'
 
 const Contact = () => {
     const language = useSelector((state) => state.language)
@@ -33,7 +37,7 @@ const Contact = () => {
             </Text>
             <Flex justifyContent="center" alignItems="center" flexDirection="column">
                 <Text
-                    mt='2rem'
+                    mt="2rem"
                     as={motion.p}
                     transition="opacity 0.6s cubic-bezier(0.5, 0, 0, 1) 0.15s"
                     initial={{ opacity: 0 }}
@@ -51,8 +55,8 @@ const Contact = () => {
                     whileInView={{ opacity: 1 }}
                     textAlign="center"
                     // w="100%"
-                    mt='1.5rem'
-                    fontFamily='heading'
+                    mt="1.5rem"
+                    fontFamily="heading"
                     fontSize={{ base: '1.2rem', md: '1.4rem' }}
                     opacity="0.3"
                 >
@@ -72,11 +76,83 @@ const Contact = () => {
                     border="1px solid #1E90FF"
                     fontFamily="heading"
                     fontSize={{ base: '1rem', md: '1.2rem' }}
+                    display={{ base: 'none', md: 'flex' }}
                 >
                     <Link href="mailto:alejandrodamen3@gmail.com">
                         <a target="_blank">{data[language].contact.button}</a>
                     </Link>
                 </Button>
+                <Flex display={{ base: 'flex', md: 'none' }} pt="4rem">
+                    <Box
+                        as={motion.div}
+                        initial={{ opacity: 0 }}
+                        whileInView={{ opacity: 1 }}
+                        transition="opacity 0.6s cubic-bezier(0.5, 0, 0, 1) 0.20s"
+                        w="30px"
+                        h="30px"
+                        fill="primary"
+                        cursor="pointer"
+                        mb="2.5rem"
+                    >
+                        <Link href="https://github.com/aledamen?tab=repositories">
+                            <a target="_blank">
+                                <Github w="25px" h="25px" fill="primary" />
+                            </a>
+                        </Link>
+                    </Box>
+                    <Box
+                        as={motion.div}
+                        initial={{ opacity: 0 }}
+                        whileInView={{ opacity: 1 }}
+                        transition="opacity 0.6s cubic-bezier(0.5, 0, 0, 1) 0.20s"
+                        w="30px"
+                        h="30px"
+                        fill="primary"
+                        cursor="pointer"
+                        mb="2.5rem"
+                        ml="2rem"
+                    >
+                        <Link href="https://www.linkedin.com/in/alejandro-d-amen-982630174/">
+                            <a target="_blank">
+                                <Linkedin w="25px" h="25px" fill="primary" />
+                            </a>
+                        </Link>
+                    </Box>
+                    <Box
+                        as={motion.div}
+                        initial={{ opacity: 0 }}
+                        whileInView={{ opacity: 1 }}
+                        transition="opacity 0.6s cubic-bezier(0.5, 0, 0, 1) 0.20s"
+                        w="30px"
+                        h="30px"
+                        cursor="pointer"
+                        mb="2.5rem"
+                        ml="2rem"
+                    >
+                        <Link href="https://wa.me/+5491126306505">
+                            <a target="_blank">
+                                <Whatsapp w="25px" h="25px" fill="primary" />
+                            </a>
+                        </Link>
+                    </Box>
+                    <Box
+                        as={motion.div}
+                        initial={{ opacity: 0 }}
+                        whileInView={{ opacity: 1 }}
+                        transition="opacity 0.6s cubic-bezier(0.5, 0, 0, 1) 0.20s"
+                        w="30px"
+                        h="30px"
+                        cursor="pointer"
+                        mb="2.5rem"
+                        ml="2rem"
+                    >
+                        <Link href="mailto:alejandrodamen3@gmail.com">
+                            <a target="_blank">
+                                <Mail w="25px" h="25px" fill="primary" />
+                            </a>
+                        </Link>
+                    </Box>
+                </Flex>
             </Flex>
         </Flex>
     )

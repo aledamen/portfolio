@@ -38,22 +38,7 @@ const AboutMe = () => {
                     mt={{ base: '2rem', md: '4.5rem' }}
                     ml={{ base: '0', lg: '10rem' }}
                 >
-                    <Box height={{ base: '270px', lg: '300px' }}>
-                        {/* <Box
-                            as={motion.div}
-                            opacity="0.2"
-                            bg="primary"
-                            _hover={{ bg: 'none', transition: '.5s linear' }}
-                            width={{ base: '180px', lg: '230px' }}
-                            height={{ base: '240px', lg: '300px' }}
-                            position="absolute"
-                            borderRadius="7px"
-                            initial={{ opacity: 0 }}
-                            whileInView={{ opacity: 0.2 }}
-                            transition="opacity 0.6s cubic-bezier(0.5, 0, 0, 1) 0.15s"
-                        >
-                            
-                        </Box> */}
+                    <Box height={{ base: '270px', lg: '300px' }} opacity='0.8'>
                         <Image
                             alt="Alejandro D'Amen"
                             as={motion.img}
@@ -65,6 +50,7 @@ const AboutMe = () => {
                             initial={{ opacity: 0 }}
                             whileInView={{ opacity: 1 }}
                             transition="opacity 0.6s cubic-bezier(0.5, 0, 0, 1) 0.20s"
+                            
                         />
                     </Box>
                     <Button
@@ -96,7 +82,7 @@ const AboutMe = () => {
                     fontSize={{ base: '1rem', md: '1.1rem' }}
                     fontWeight="500"
                     width={{ base: '100%', lg: '40%' }}
-                    pl={{ base: '.5rem', md: '2rem', lg: '5rem' }}
+                    pl={{ base: '1rem', md: '2rem', lg: '5rem' }}
                     pr={{ base: '.5rem' }}
                 >
                     <Text

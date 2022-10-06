@@ -13,7 +13,8 @@ const Footer = () => {
             justifyContent="center"
             alignItems="center"
             mt={{ base: '5rem', md: '10rem' }}
-            pb="1rem"
+            pb="2rem"
+            h={{base:'120px'}}
         >
             <Text
                 as={motion.p}
@@ -48,7 +49,8 @@ const Footer = () => {
                 initial={{ opacity: 0 }}
                 whileInView={{ opacity: 1 }}
                 textAlign="center"
-                fontSize={{ base: '0.5rem', md: '0.7rem' }}
+                fontSize='.7rem'
+                mt='.35rem'
                 opacity="0.3"
                 fontFamily="heading"
                 color="rgba(255,255,255,0.5)"

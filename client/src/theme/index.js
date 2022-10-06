@@ -8,6 +8,7 @@ const theme = extendTheme({
     },
     colors: {
         primary: '#1E90FF',
+        secondary:'#011129'
     },
     breakpoints: {
         sm: '320px',

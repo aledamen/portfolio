@@ -13,23 +13,29 @@
     width: 650px;
     height: 320px;
     &:hover {
-        transition: all ease-in-out .5s;
-        // transform: translateY(10px);
+        transition: all .6s ease-in-out;
+        transform: translateY(10px);
         transform: scale(1.05);
         &:before {
             opacity: 1;
         }
         .info {
             opacity: 1;
-            transform: translateY(20px);
+            @media only screen and (max-width: 2000px) {
+                transform: translateY(20px);
+                transition: all .9s ease-in-out;
+           }
         @media only screen and (max-width: 1536px) {
             transform: translateY(140px);
+            transition: all .9s ease-in-out;
        }
        @media only screen and (max-width: 530px) {
         transform: translateY(70px);
+        transition: all .6s ease-in-out;
    }
    @media only screen and (max-width: 380px) {
     transform: translateY(40px);
+    transition: all .6s ease-in-out;
 }
         }
     }
@@ -80,20 +86,14 @@
         z-index: 3;
         color: white;
         opacity: 0;
-        transform: translateY(80px);
-//     @media only screen and (max-width: 325px) {
-//         transform: translateY(40px);
-//    }
-//     @media only screen and (max-width: 2000px) {
-//         transform: translateY(25px);
-//    }
+        transform: translateY(10px);
+
         transition: 0.5s;
         .title {
             margin: 0px;
         }
         .description {
             letter-spacing: 1px;
-            // font-size: 15px;
         }
         @media only screen and (max-width: 1536px) {
             width: 500px;

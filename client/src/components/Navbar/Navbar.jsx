@@ -102,7 +102,7 @@ const Navbar = () => {
                             <Switch mr="7px" ml="7px" colorScheme="facebook" onChange={() => handleLanguage()} />
                             EN
                         </FormControl>
-                        </Box>                       
+                    </Box>                       
                 </Flex>
                 <DrawerMenu />
             </Flex>

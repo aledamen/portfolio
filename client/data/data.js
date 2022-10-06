@@ -18,9 +18,9 @@ const data = {
         ],
         aboutMe: [
             'About me',
-            'Since I was a child I have always been passionate about technology and sports. For 6 years I worked as a Physical Education Teacher.',
-            'Then I decided to give a twist to my career and I did a programming bootcamp at Plataforma 5, composed by more than 800hs during 4 months, working in pair programming and in teams, applying agile methodologies like SCRUM, which helped me to strengthen both my hard and soft skills.',
-            'I am a proactive, dedicated and responsible person. In my work experiences, teamwork was always important and each one of them helped me to grow.',
+            'Since I was a child I was passionate about technology and sport. For 6 years I worked as a PE teacher and played rugby at the San Fernando Club.',
+            'I chose to challenge myself and did a programming bootcamp at Platform 5, consisting of more than 800hs during 4 months, working in pair programming and in teams, applying agile methodologies like SCRUM, which helped me to strengthen both my hard and soft skills.',
+            'I am a pro-active, dedicated and responsible person. Being involved in teaching and sport allowed me to acquire a passion for teamwork and communication.',
             'Download Resume',
         ],
         projects: {
@@ -71,7 +71,7 @@ const data = {
         },
         footer: {
             title: 'Made with',
-            copyright:"Site developed by Alejandro D'Amen 2022"
+            copyright:"Site developed by Alejandro D'Amen 2022."
         }
     },
     es: {
@@ -93,9 +93,9 @@ const data = {
         ],
         aboutMe: [
             'Sobre mí',
-            'Desde chico fui un apasionado por la tecnología y el deporte. Durante 6 años trabajé como Profesor de Educación Física.',
-            'Luego decidí dar un giro a mi carrera e hice un bootcamp de programación en Plataforma 5, compuesto por mas de 800hs durante 4 meses, trabajando en pair programming y en equipos, aplicando metodologías ágiles como SCRUM, lo cual me ayudó a fortalecer tanto mis habilidades duras como blandas.',
-            'Soy una persona pro activa, dedicada y responsable. En mis experiencias laborales siempre fue importante tanto el trabajo en equipo como la comunicación y cada una de ellas me ayudaron a crecer personalmente.',
+            'Desde chico fui un apasionado por la tecnología y el deporte. Durante 6 años trabajé como profesor de Educación Física y juego al rugby en el Club San Fernando.',
+            'Elegí desafiarme e hice un bootcamp de programación en Plataforma 5, compuesto por mas de 800hs durante 4 meses, trabajando en pair programming y en equipos, aplicando metodologías ágiles como SCRUM, lo cual me ayudó a fortalecer tanto mis habilidades duras como blandas.',
+            'Soy una persona pro activa, dedicada y responsable. Estar relacionado con la docencia y el deporte me permitió adquirir esa pasión por el trabajo en equipo y la comunicación.',
             'Descargar CV',
         ],
         projects: {
@@ -146,7 +146,7 @@ const data = {
         },
         footer: {
             title: 'Hecho con',
-            copyright: "Sitio desarrollado por Alejandro D'Amen 2022"
+            copyright: "Sitio desarrollado por Alejandro D'Amen 2022."
         }
     },
 }
