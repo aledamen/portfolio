@@ -31,7 +31,7 @@ const data = {
                     path: '/assets/images/portfolio.png',
                     linkGit: 'https://github.com/aledamen/portfolio',
                     linkWeb: '#home',
-                    description: 'Mi Primer portfolio personal, utilizando:',
+                    description: 'My first personal portfolio.',
                     skills: ['Next.js', 'ChakraUI'],
                 },
                 {
@@ -39,27 +39,36 @@ const data = {
                     path: '/assets/images/revistaWOW.png',
                     linkGit: '#home',
                     linkWeb: 'https://p5-wow-git-develop-joaquinreiners.vercel.app/',
-                    description: 'Proyecto profesional en un equipo SCRUM de 5, durante un mes para Hogarth WorldWide, utilizando:',
-                    skills: ['Node.js', 'Strapi', 'MongoDB', 'Next.js', 'ChakraUI'],
+                    description: 'Professional project for Hogarth WorldWide.',
+                    skills: ['Strapi', 'MongoDB', 'Next.js', 'ChakraUI'],
                 },
                 {
                     name: 'Pasion Argenta',
                     path: '/assets/images/e-commerce.png',
                     linkGit: 'https://github.com/aledamen/E-Commerce-Pasion-Argenta',
                     linkWeb: '#home',
-                    description: 'Proyecto en un equipo SCRUM de 5 durante dos semanas, utilizando:',
-                    skills: ['Node.js', 'Express', 'MongoDB','JWT', 'React.js', 'MaterialUI'],
+                    description: 'Project in a SCRUM team of five members.',
+                    skills: ['Node.js','MongoDB','React.js', 'MUI'],
                 },
                 {
                     name: 'TMDB',
                     path: '/assets/images/TMDB.png',
                     linkGit: 'https://github.com/aledamen/TMDB.',
                     linkWeb: '#home',
-                    description: 'Proyecto individual durante una semana, utilizando:',
-                    skills: ['Node.js', 'Express', 'MongoDB', 'JWT', 'React.js', 'SASS']
+                    description: 'Individual project for one week.',
+                    skills: ['Node.js','MongoDB','React.js', 'SASS']
                 },
             ],
         },
+        skills: {
+            title: 'Skills',
+            skills:["/assets/skills/node.png","/assets/skills/express.png", "/assets/skills/sequelize.png", "/assets/skills/postgresql.png", "/assets/skills/mongo.png", "/assets/skills/mongoose.png", "/assets/skills/jwt.png", "/assets/skills/socket.png", "/assets/skills/docker.png", "/assets/skills/npm.png", "/assets/skills/react.png", "/assets/skills/next2.png", "/assets/skills/chakra.png", "/assets/skills/redux.png", "/assets/skills/sass.png", "/assets/skills/git.png"]
+        },
+        contact: {
+            title: 'Contact',
+            description: ['I am always open to listen to proposals, talk about technology or sports.', 'Why not have a coffee?'],
+            button:'Contact me'
+        }
     },
     es: {
         navbar: ['Inicio', 'Sobre mí', 'Proyectos', 'Tecnologías', 'Contacto'],
@@ -110,7 +119,7 @@ const data = {
                     linkGit: 'https://github.com/aledamen/E-Commerce-Pasion-Argenta',
                     linkWeb: '#home',
                     description: 'Proyecto en un equipo SCRUM de cinco integrantes.',
-                    skills: ['Node.js', 'MongoDB', 'React.js', 'MaterialUI'],
+                    skills: ['Node.js', 'MongoDB', 'React.js', 'MUI'],
                 },
                 {
                     name: 'TMDB',
@@ -122,6 +131,15 @@ const data = {
                 },
             ],
         },
+        skills: {
+            title: 'Tecnologías',
+            skills:["/assets/skills/node.png","/assets/skills/express.png", "/assets/skills/sequelize.png", "/assets/skills/postgresql.png", "/assets/skills/mongo.png", "/assets/skills/mongoose.png", "/assets/skills/jwt.png", "/assets/skills/socket.png", "/assets/skills/docker.png", "/assets/skills/npm.png", "/assets/skills/react.png", "/assets/skills/next2.png", "/assets/skills/chakra.png", "/assets/skills/redux.png", "/assets/skills/sass.png", "/assets/skills/git.png"]
+        },
+        contact: {
+            title: 'Contacto',
+            description: ['Siempre estoy abierto a escuchar propuestas, hablar sobre tecnología o deporte.', '¿Por qué no tomarnos un café?'],
+            button:'Contactame'
+        }
     },
 }
 

@@ -59,7 +59,7 @@ const DrawerMenu = () => {
                             </Link>
                         </Box>
                         <Box mt={{base:"50px", md:"70px"}} fontSize="1.1rem" fontWeight="500">
-                            <Link href="/">
+                            <Link href="#skills">
                                 <a style={{ target: '_blank' }}>{data[language].navbar[3]}</a>
                             </Link>
                         </Box>

@@ -1,4 +1,4 @@
-import { Box, Button, Divider, Flex, Grid, Image, Text } from '@chakra-ui/react'
+import { Box, Divider, Flex, Grid, Image, Text } from '@chakra-ui/react'
 import { motion } from 'framer-motion'
 import Link from 'next/link'
 import React from 'react'
@@ -42,7 +42,7 @@ const Projects = () => {
                 mr={{ base: '2rem', md: '6rem', lg: '6rem' }}
                 pl={{ base: '.5rem' }}
                 pr={{ base: '.5rem' }}
-                mb="8rem"
+                mb={{base:'6rem', md:'8rem'}}
             >
                 {/* <Box
                     // boxShadow="0px 7px 10px rgba(black, 0.5)"

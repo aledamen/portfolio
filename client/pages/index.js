@@ -7,6 +7,8 @@ import ContactLine from '../src/components/ContactLine/ContactLine'
 import Init from '../src/components/Home/Init'
 import Script from 'next/script'
 import Projects from '../src/components/Projects/Projects'
+import Skills from '../src/components/Skills/Skills'
+import Contact from '../src/components/Contact/Contact'
 
 export default function Home() {
     return (
@@ -17,6 +19,8 @@ export default function Home() {
             <Init/>
             <AboutMe />
             <Projects />
+            <Skills />
+            <Contact/>
         </div>
     )
 }

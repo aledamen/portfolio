@@ -81,7 +81,7 @@ const Navbar = () => {
                         fontWeight="500"
                         _hover={{ color: 'primary'}}
                     >
-                        <Link href="/">
+                        <Link href="#skills">
                             <a>{data[language].navbar[3]}</a>
                         </Link>
                     </Box>
