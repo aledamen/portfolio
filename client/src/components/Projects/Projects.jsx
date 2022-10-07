@@ -1,13 +1,9 @@
 import { Box, Divider, Flex, Grid, Image, Text } from '@chakra-ui/react'
 import { motion } from 'framer-motion'
-import Link from 'next/link'
 import React from 'react'
 import { useSelector } from 'react-redux'
 import data from '../../../data/data'
-import { Github } from '../../../public/assets/icons/github'
-import { Website } from '../../../public/assets/icons/website'
 import ProjectsCard from '../../commons/ProjectsCard/ProjectsCard'
-// import styles from './Project.module.scss'
 
 const Projects = () => {
     const language = useSelector((state) => state.language)
