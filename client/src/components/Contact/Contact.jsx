@@ -54,7 +54,6 @@ const Contact = () => {
                     initial={{ opacity: 0 }}
                     whileInView={{ opacity: 1 }}
                     textAlign="center"
-                    // w="100%"
                     mt="1.5rem"
                     fontFamily="heading"
                     fontSize={{ base: '1.2rem', md: '1.4rem' }}
