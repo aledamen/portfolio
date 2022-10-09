@@ -19,7 +19,7 @@ function MyApp({ Component, pageProps }) {
     }, [])
 
     return (
-        <div style={{ backgroundColor: '#011129' }}>
+        <div style={{ backgroundColor: '#02193b' }}>
             <Head>
                 <title>Alejandro DAmen</title>
                 <link rel="icon" href="/favicon.ico" type="image/x-icon" />

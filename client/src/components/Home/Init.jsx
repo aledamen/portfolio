@@ -21,7 +21,7 @@ const Init = () => {
             <Flex
                 pt={{ base: '200px', md: '150px', lg:'170px' }}
                 height={{ base: '700px', md: '800px' }}
-                width={{ sm: '310px', md: '700px', lg: '900px', xl: '1200px' }}
+                width={{ sm: '320px', md: '700px', lg: '900px', xl: '1200px' }}
                 pl={{ base: '0rem', sm:'2rem', md: '6rem' }}
                 pr={{ base: '0rem',  sm:'2rem',md: '6rem' }}
             >

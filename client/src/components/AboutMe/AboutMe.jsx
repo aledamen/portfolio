@@ -38,7 +38,7 @@ const AboutMe = () => {
                     mt={{ base: '2rem', md: '4.5rem' }}
                     ml={{ base: '0', lg: '10rem' }}
                 >
-                    <Box height={{ base: '270px', lg: '300px' }} opacity='0.8'>
+                    <Box height={{ base: '270px', lg: '300px' }} opacity="0.8">
                         <Image
                             alt="Alejandro D'Amen"
                             as={motion.img}
@@ -50,7 +50,6 @@ const AboutMe = () => {
                             initial={{ opacity: 0 }}
                             whileInView={{ opacity: 1 }}
                             transition="opacity 0.6s cubic-bezier(0.5, 0, 0, 1) 0.20s"
-                            
                         />
                     </Box>
                     <Button
@@ -69,7 +68,7 @@ const AboutMe = () => {
                         fontSize={{ base: '1rem', md: '1.2rem' }}
                         display={{ base: 'none', lg: 'flex' }}
                     >
-                        <Link href="https://drive.google.com/uc?id=1KxfgH9Y5IDtMGUaytsdI-rANronj-0ZP&export=download">
+                        <Link href="https://drive.google.com/uc?id=1MW6ALdK_VvTtxZ72J450UWBjkMGoB_xm&export=download">
                             <a> {data[language].aboutMe[4]}</a>
                         </Link>
                     </Button>
@@ -131,7 +130,7 @@ const AboutMe = () => {
                         fontSize={{ base: '1rem', md: '1.2rem' }}
                         display={{ base: 'flex', lg: 'none' }}
                     >
-                        <Link href="https://drive.google.com/uc?id=1KxfgH9Y5IDtMGUaytsdI-rANronj-0ZP&export=download">
+                        <Link href="https://drive.google.com/uc?id=1MW6ALdK_VvTtxZ72J450UWBjkMGoB_xm&export=download">
                             <a> {data[language].aboutMe[4]}</a>
                         </Link>
                     </Button>
