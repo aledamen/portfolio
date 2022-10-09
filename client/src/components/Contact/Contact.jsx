@@ -93,7 +93,7 @@ const Contact = () => {
                         cursor="pointer"
                         mb="2.5rem"
                     >
-                        <Link href="https://github.com/aledamen?tab=repositories">
+                        <Link href="https://github.com/aledamen">
                             <a target="_blank">
                                 <Github w="25px" h="25px" fill="primary" />
                             </a>
