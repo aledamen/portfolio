@@ -33,12 +33,12 @@ const Projects = () => {
             </Text>
             <Grid
                 templateColumns={{ base: 'repeat(1, 1fr)', xl: 'repeat(2, 1fr)' }}
-                gap={{ base: '8', md: '10', lg: '12' }}
+                gap={{ base:'4',sm: '8', md: '10', lg: '12' }}
                 mt='3rem'
-                ml={{ base: '2rem', md: '6rem', lg: '6rem' }}
-                mr={{ base: '2rem', md: '6rem', lg: '6rem' }}
-                pl={{ base: '.5rem' }}
-                pr={{ base: '.5rem' }}
+                ml={{ base:'1rem',sm: '2rem', md: '6rem', lg: '6rem' }}
+                mr={{ base:'0rem',sm: '2rem', md: '6rem', lg: '6rem' }}
+                pl={{ base:'.2rem',sm: '.5rem' }}
+                pr={{ base:'.2rem',sm: '.5rem' }}
                 mb={{base:'6rem', md:'8rem'}}
             >
                 {data[language].projects.projects.map((ele, i) => {

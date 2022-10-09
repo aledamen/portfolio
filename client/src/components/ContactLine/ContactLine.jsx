@@ -31,7 +31,7 @@ const ContactLine = () => {
                 </Link>
             </Box>
             <Box w="30px" h="30px" fill="primary" cursor="pointer" mb="2.5rem" ml="5px">
-                <Link href="https://www.linkedin.com/in/alejandro-d-amen-982630174/">
+                <Link href="https://www.linkedin.com/in/alejandrodamen/">
                     <a target="_blank">
                         <Linkedin w="25px" h="25px" fill="primary" />
                     </a>

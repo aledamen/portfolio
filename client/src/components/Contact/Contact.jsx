@@ -111,7 +111,7 @@ const Contact = () => {
                         mb="2.5rem"
                         ml="2rem"
                     >
-                        <Link href="https://www.linkedin.com/in/alejandro-d-amen-982630174/">
+                        <Link href="https://www.linkedin.com/in/alejandrodamen/">
                             <a target="_blank">
                                 <Linkedin w="25px" h="25px" fill="primary" />
                             </a>

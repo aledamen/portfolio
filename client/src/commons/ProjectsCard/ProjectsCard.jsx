@@ -32,7 +32,7 @@ const ProjectsCard = ({data, key}) => {
             <Box className={styles.info} mt={{ base: '3rem' }}>
                 <Text
                     className={styles.title}
-                    fontSize={{ base: '1.1rem', md: '1.3rem' }}
+                    fontSize={{ base:'.9rem',sm: '1.1rem', md: '1.3rem' }}
                     fontWeight="500"
                     fontFamily="heading"
                 >
@@ -43,13 +43,13 @@ const ProjectsCard = ({data, key}) => {
                     maxW="500px"
                     color="white"
                     fontFamily="body"
-                    fontSize={{ base: '0.8rem', md: '1rem' }}
+                    fontSize={{ base:'.6rem',sm: '0.8rem', md: '1rem' }}
                     className={styles.description}
                     mt={{ base: '.5rem', md: '.5rem' }}
                 >
                     {data.description}
                 </Text>
-                <Box mt={{ base: '.5rem', md: '.8rem' }}>
+                <Box mt={{ base: '.5rem', md: '.8rem' }} display={{base:'none', sm:'flex'}}>
                     {data.skills.map((skill, i) => {
                         return (
                             <Text

@@ -21,31 +21,32 @@ const Init = () => {
             <Flex
                 pt={{ base: '200px', md: '150px', lg:'170px' }}
                 height={{ base: '700px', md: '800px' }}
-                width={{ base: '350px', md: '700px', lg: '900px', xl: '1200px' }}
-                pl={{ base: '2rem', md: '6rem' }}
-                pr={{ base: '2rem', md: '6rem' }}
+                width={{ sm: '310px', md: '700px', lg: '900px', xl: '1200px' }}
+                pl={{ base: '0rem', sm:'2rem', md: '6rem' }}
+                pr={{ base: '0rem',  sm:'2rem',md: '6rem' }}
             >
                 <Flex
                     flexDirection="column"
                     mt={{ base: '0', md: '4rem', lg: '6rem' }}
-                    ml={{ base: '2rem', m: '6rem', md: '8rem', lg: '8rem', xl: '6rem', xxxl: '16rem' }}
+                    ml={{ base: '1rem', sm:'1rem', m: '6rem', md: '8rem', lg: '8rem', xl: '6rem', xxxl: '16rem' }}
                     mr={{ base: '0' }}
-                    w={{ base: '400px', md: '500px', lg: '500px', xl: '700px' }}
+                    w={{ base: '100%', sm:'400px', md: '500px', lg: '500px', xl: '700px' }}
                 >
                     <Text
                         as="p"
-                        fontSize={{ base: '1.2rem', md: '1.4rem' }}
+                        fontSize={{ base: '1rem', sm:'1.2rem', md: '1.4rem' }}
                         fontWeight="500"
                         color="primary"
                         mt="0.4rem 0"
                         fontFamily="heading"
+                        width={{base:'60%',sm:'100%'}}
                     >
                         {data[language].init[0]}
                     </Text>
-                    <Text as="p" fontSize={{ base: '3rem', md: '4rem' }} fontWeight="500" mt="0.4rem 0">
+                    <Text as="p" fontSize={{ base: '2rem', sm:'3rem', md: '4rem' }} fontWeight="500" mt="0.4rem 0" width={{base:'70%',sm:'100%'}}>
                         {data[language].init[1]}
                     </Text>
-                    <Text as="p" fontSize={{ base: '1.2rem', md: '1.8rem' }} m="0.4rem 0" fontWeight="500">
+                    <Text as="p" fontSize={{ base: '1rem', sm:'1.2rem', md: '1.8rem' }} m="0.4rem 0" fontWeight="500" width={{base:'70%',sm:'100%'}}>
                         {data[language].init[2]}
                         <Typed strings={data[language].init[3]} typeSpeed={150} backSpeed={50} loop />
                     </Text>
@@ -55,6 +56,7 @@ const Init = () => {
                         m="0.4rem 0"
                         color="primary"
                         fontWeight="500"
+                        width={{base:'70%',sm:'100%'}}
                     >
                         {data[language].init[4]}
                     </Text>

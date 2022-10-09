@@ -37,6 +37,10 @@
     transform: translateY(40px);
     transition: all .6s ease-in-out;
 }
+@media only screen and (max-width: 325px) {
+    transform: translateY(60px);
+    transition: all .6s ease-in-out;
+}
         }
     }
     @media only screen and (max-width: 1536px) {
@@ -48,13 +52,17 @@
        height: 200px; 
    }
    @media only screen and (max-width: 380px) {
-    width: 325px;
-   height: 180px; 
+    width: 290px;
+   height: 162px; 
 }
 @media only screen and (max-width: 325px) {
-    width: 290px;
-   height: 160px; 
-}       
+    width: 260px;
+   height: 144px; 
+}
+@media only screen and (max-width: 290px) {
+    width: 232px;
+   height: 128px; 
+}        
     &:before {
         content: '';
         position: absolute;
@@ -86,8 +94,7 @@
         z-index: 3;
         color: white;
         opacity: 0;
-        transform: translateY(10px);
-
+        // transform: translateY(10px);
         transition: 0.5s;
         .title {
             margin: 0px;
