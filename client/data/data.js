@@ -54,7 +54,7 @@ const data = {
                     name: 'TMDB',
                     path: '/assets/images/TMDB.png',
                     linkGit: 'https://github.com/aledamen/TMDB.',
-                    linkWeb: '#home',
+                    linkWeb: 'https://alejandrodamen-tmdb.vercel.app/',
                     description: 'Individual project for one week.',
                     skills: ['Node.js','MongoDB','React.js', 'SASS']
                 },
@@ -129,7 +129,7 @@ const data = {
                     name: 'TMDB',
                     path: '/assets/images/TMDB.png',
                     linkGit: 'https://github.com/aledamen/TMDB.',
-                    linkWeb: '#home',
+                    linkWeb: 'https://alejandrodamen-tmdb.vercel.app/',
                     description: 'Proyecto individual durante una semana.',
                     skills: ['Node.js', 'MongoDB', 'React.js', 'SASS']
                 },
