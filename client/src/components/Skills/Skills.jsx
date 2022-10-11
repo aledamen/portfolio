@@ -49,7 +49,7 @@ const Skills = () => {
                             key={i}
                             filter='grayscale(2)'
                             transition='all .4s ease-in-out'
-                            _hover={{ filter: 'grayscale(0)', transform:'scale(1.07)',  }}
+                            _hover={{ filter: 'grayscale(0)', transform:'scale(1.25)',  }}
                         >
                             <Image
                                 src={skill}

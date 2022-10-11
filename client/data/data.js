@@ -95,7 +95,7 @@ const data = {
             'Sobre mí',
             'Desde chico fui un apasionado por la tecnología y el deporte. Durante 6 años trabajé como profesor de Educación Física y juego al rugby en el Club San Fernando.',
             'Elegí desafiarme e hice un bootcamp de programación en Plataforma 5, compuesto por mas de 800hs durante 4 meses, trabajando en pair programming y en equipos, aplicando metodologías ágiles como SCRUM, lo cual me ayudó a fortalecer tanto mis habilidades duras como blandas.',
-            'Soy una persona pro activa, dedicada y responsable. Estar relacionado con la docencia y el deporte me permitió adquirir esa pasión por el trabajo en equipo y la comunicación.',
+            'Soy una persona proactiva, dedicada y responsable. Estar relacionado con la docencia y el deporte me permitió adquirir esa pasión por el trabajo en equipo y la comunicación.',
             'Descargar CV',
         ],
         projects: {
