@@ -25,7 +25,7 @@ const theme = extendTheme({
             variants: {
                 xxs: {
                     dialog: {
-                        maxW: '45%',
+                        maxW: '40%',
                         background: 'rgba(30, 144, 255, 0.5)',
                     },
                 },
