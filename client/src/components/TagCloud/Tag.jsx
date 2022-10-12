@@ -29,7 +29,6 @@ const Tag = () => {
 
     setTimeout(() => {
         const el = ref.current?.children.length
-        const dimension = screen.width
         if (!el) {
             const tagCloud = TagCloud('#content', myTags, {
                 // radius in px

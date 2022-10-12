@@ -6,7 +6,7 @@ import { Github } from '../../../public/assets/icons/github'
 import { Website } from '../../../public/assets/icons/website'
 import styles from './ProjectsCard.module.scss'
 
-const ProjectsCard = ({data, key}) => {
+const ProjectsCard = ({data}) => {
     return (
         <Box
             className={styles.card}
@@ -14,7 +14,6 @@ const ProjectsCard = ({data, key}) => {
             transition="opacity 0.6s cubic-bezier(0.5, 0, 0, 1) 0.15s"
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
-            key={key}
         >
             <Image
                 alt="Project portfolio Alejandro D'Amen"

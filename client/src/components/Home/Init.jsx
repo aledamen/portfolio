@@ -22,7 +22,7 @@ const Init = () => {
             <Flex
                 pt={{ base: '200px', md: '150px', xl: '90px', xml: '170px' }}
                 height={{ base: '700px', md: '800px' }}
-                width={{ sm: '320px', md: '700px', lg: '900px', xl: '900px', xml:"1200px" }}
+                width={{ sm: '320px',m:'400px', md: '700px', lg: '900px', xl: '900px', xml:"1200px" }}
                 pl={{ base: '0rem', sm: '2rem', md: '6rem' }}
                 pr={{ base: '0rem', sm: '2rem', md: '6rem', xl:"0", xml:"6rem" }}
             >
@@ -58,7 +58,7 @@ const Init = () => {
                         fontSize={{ base: '1rem', sm: '1.2rem', md: '1.8rem' }}
                         m="0.4rem 0"
                         fontWeight="500"
-                        width={{ base: '60%', sm: '100%', xl: '80%', xml: '100%' }}
+                        width={{ base: '70%', sm: '100%', xl: '80%', xml: '100%' }}
                     >
                         {data[language].init[2]}
                         <Typed strings={data[language].init[3]} typeSpeed={150} backSpeed={50} loop />
