@@ -38,7 +38,7 @@ const AboutMe = () => {
                     mt={{ base: '2rem', md: '4.5rem' }}
                     ml={{ base: '0', lg: '10rem' }}
                 >
-                    <Box height={{ base: '270px', lg: '300px' }} opacity="0.8">
+                    <Box height={{ base: '270px', lg: '300px' }} >
                         <Image
                             alt="Alejandro D'Amen"
                             as={motion.img}
