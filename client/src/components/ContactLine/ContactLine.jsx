@@ -14,7 +14,7 @@ const ContactLine = () => {
             flexDirection="column"
             position="fixed"
             left="3rem"
-            top="18rem"
+            top={{xl:"12rem", xml:"18rem"}}
             alignItems="center"
             zIndex="999"
             color="primary"

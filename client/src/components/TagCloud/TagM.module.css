@@ -1,0 +1,11 @@
+.contentM {
+    font-size: 16px;
+    font-weight: 650;
+    position: absolute;
+    top:8rem;
+    right: 8rem;
+}
+
+.tags:hover{
+  color: #1E90FF;
+}

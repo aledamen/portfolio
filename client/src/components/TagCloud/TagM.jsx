@@ -1,8 +1,8 @@
 import { Box } from '@chakra-ui/react'
 import React, { useRef } from 'react'
-import styles from './Tag.module.css'
+import styles from './TagM.module.css'
 
-const Tag = () => {
+const TagM = () => {
     const ref = useRef(null)
     const myTags = [
         'JavaScript',
@@ -29,16 +29,15 @@ const Tag = () => {
 
     setTimeout(() => {
         const el = ref.current?.children.length
-        const dimension = screen.width
         if (!el) {
-            const tagCloud = TagCloud('#content', myTags, {
+            const tagCloud = TagCloud('#contentM', myTags, {
                 // radius in px
-                radius: 270,
+                radius: 200,
                 // animation speed
                 // slow, normal, fast
                 maxSpeed: 'fast',
                 initSpeed: 'fast',
-                containerClass: styles.content,
+                containerClass: styles.contentM,
                 itemClass: styles.tags,
                 // 0 = top
                 // 90 = left
@@ -57,11 +56,11 @@ const Tag = () => {
         <Box
             ref={ref}
             className={styles.content}
-            id="content"
-            display={{ base: 'none', xml: 'flex' }}
+            id="contentM"
+            display={{ base: "none", xl: "flex", xml:"none"}}
             fontFamily="body"
         ></Box>
     )
 }
 
-export default Tag
+export default TagM

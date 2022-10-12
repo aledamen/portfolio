@@ -1,18 +1,16 @@
 .content {
-    /* font-family: 'Poppins', sans-serif;   */
     font-size: 18px;
     font-weight: 650;
-    /* margin-left: 30%; */
     position: absolute;
-    top:4rem;
-    right: 60px;
+    top:5rem;
+    right: 10rem;
 }
-
   @media only screen and (max-width: 1600px) {
     .content {
         right:0px;
     }
   }
+
 .tags:hover{
   color: #1E90FF;
 }
