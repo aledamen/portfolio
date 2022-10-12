@@ -37,7 +37,7 @@ const data = {
                 {
                     name: 'RevistaWOW',
                     path: '/assets/images/revistaWOW.png',
-                    linkGit: '#home',
+                    linkGit: 'https://github.com/aledamen/Magazine-WOW',
                     linkWeb: 'https://p5-wow-git-develop-joaquinreiners.vercel.app/',
                     description: 'Professional project for Hogarth WorldWide.',
                     skills: ['Strapi', 'MongoDB', 'Next.js', 'ChakraUI'],
@@ -47,7 +47,7 @@ const data = {
                     path: '/assets/images/e-commerce.png',
                     linkGit: 'https://github.com/aledamen/E-Commerce-Pasion-Argenta',
                     linkWeb: '#home',
-                    description: 'Project in a SCRUM team of five members.',
+                    description: 'Project in a SCRUM team of five members for two weeks.',
                     skills: ['Node.js','MongoDB','React.js', 'MUI'],
                 },
                 {
@@ -112,7 +112,7 @@ const data = {
                 {
                     name: 'RevistaWOW',
                     path: '/assets/images/revistaWOW.png',
-                    linkGit: '#home',
+                    linkGit: 'https://github.com/aledamen/Magazine-WOW',
                     linkWeb: 'https://p5-wow-git-develop-joaquinreiners.vercel.app/',
                     description: 'Proyecto profesional para Hogarth WorldWide.',
                     skills: ['Strapi', 'MongoDB', 'Next.js', 'ChakraUI'],
@@ -122,7 +122,7 @@ const data = {
                     path: '/assets/images/e-commerce.png',
                     linkGit: 'https://github.com/aledamen/E-Commerce-Pasion-Argenta',
                     linkWeb: '#home',
-                    description: 'Proyecto en un equipo SCRUM de cinco integrantes.',
+                    description: 'Proyecto en equipo SCRUM de cinco integrantes durante dos semanas.',
                     skills: ['Node.js', 'MongoDB', 'React.js', 'MUI'],
                 },
                 {

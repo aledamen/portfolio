@@ -3,7 +3,8 @@
 }
 .card {
     border-radius: 15px;
-    padding: 1.5rem;
+    padding-left: 1rem;
+    padding-bottom: 1.5rem;
     background: white;
     position: relative;
     display: flex;
@@ -26,7 +27,7 @@
                 transition: all .9s ease-in-out;
            }
         @media only screen and (max-width: 1536px) {
-            transform: translateY(140px);
+            transform: translateY(120px);
             transition: all .9s ease-in-out;
        }
        @media only screen and (max-width: 530px) {
@@ -34,7 +35,7 @@
         transition: all .6s ease-in-out;
    }
    @media only screen and (max-width: 380px) {
-    transform: translateY(40px);
+    transform: translateY(50px);
     transition: all .6s ease-in-out;
 }
 @media only screen and (max-width: 325px) {
