@@ -13,7 +13,7 @@ const ContactLine = () => {
             display={{ base: 'none', md: 'flex' }}
             flexDirection="column"
             position="fixed"
-            left="3rem"
+            left={{base:"2rem",xml:"3rem"}}
             top={{base:'12rem', xml:"18rem"}}
             alignItems="center"
             zIndex="999"
