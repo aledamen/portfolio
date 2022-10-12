@@ -20,8 +20,8 @@ const ProjectsCard = ({data, key}) => {
                 alt="Project portfolio Alejandro D'Amen"
                 as={motion.img}
                 src={data.path}
-                width={{ lg: '500px', xxl: '650px' }}
-                height={{ lg: '270px', xxl: '320px' }}
+                width={{lg: '500px', xxl: '650px' }}
+                height={{lg: '270px', xxl: '320px' }}
                 border="1px solid #1E90FF"
                 borderRadius="7px"
                 transition="opacity 0.6s cubic-bezier(0.5, 0, 0, 1) 0.15s"
