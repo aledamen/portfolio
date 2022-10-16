@@ -37,7 +37,7 @@ const Navbar = () => {
                 zIndex="999"
             >
                 <ProgressBar  color='#1E90FF'/>
-                <Link href="#init" color='primary'>
+                <Link href="#home" color='primary'>
                     <a className={styles.logo}>{str}</a>
                 </Link>
                 <Flex display={{ base: 'none', lg: 'flex' }} justifyContent="space-between" fontFamily='heading'>
