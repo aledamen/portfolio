@@ -31,7 +31,7 @@ const TagM = () => {
         const el = ref.current?.children.length
         if (!el) {
             const tagCloud = TagCloud('#contentM', myTags, {
-                radius: 200,
+                radius: 195,
                 maxSpeed: 'fast',
                 initSpeed: 'fast',
                 containerClass: styles.contentM,
