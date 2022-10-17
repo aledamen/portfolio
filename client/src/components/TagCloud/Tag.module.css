@@ -1,0 +1,16 @@
+.content {
+    font-size: 18px;
+    font-weight: 650;
+    position: absolute;
+    top:5.5rem;
+    right: 6rem;
+}
+  @media only screen and (max-width: 1600px) {
+    .content {
+        right:0px;
+    }
+  }
+
+.tags:hover{
+  color: #1E90FF;
+}
