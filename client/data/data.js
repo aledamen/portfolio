@@ -120,7 +120,7 @@ const data = {
                 {
                     name: 'Pasion Argenta',
                     path: '/assets/images/e-commerce.png',
-                    linkGit: 'https://github.com/aledamen/E-Commerce-Pasion-Argenta',
+                    linkGit: 'https://github.com/aledamen/E-Commerce-Pasion-Argenta' ,
                     linkWeb: '#home',
                     description: 'Proyecto en equipo SCRUM de cinco integrantes durante dos semanas.',
                     skills: ['Node.js', 'MongoDB', 'React.js', 'MUI'],
