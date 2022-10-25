@@ -113,7 +113,7 @@ const data = {
                     name: 'RevistaWOW',
                     path: '/assets/images/revistaWOW.png',
                     linkGit: 'https://github.com/aledamen/Magazine-WOW',
-                    linkWeb: 'https://p5-wow-git-develop-joaquinreiners.vercel.app/',
+                    linkWeb: 'https://magazine-wow.vercel.app/',
                     description: 'Proyecto profesional para Hogarth WorldWide.',
                     skills: ['Strapi', 'MongoDB', 'Next.js', 'ChakraUI'],
                 },
