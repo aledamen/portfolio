@@ -68,7 +68,7 @@ const AboutMe = () => {
                         fontSize={{ base: '1rem', md: '1.2rem' }}
                         display={{ base: 'none', lg: 'flex' }}
                     >
-                        <Link href="https://drive.google.com/uc?id=1MW6ALdK_VvTtxZ72J450UWBjkMGoB_xm&export=download">
+                        <Link href="https://drive.google.com/uc?id=1MW6ALdK_VvTtxZ72J450UWBjkMGoB_xm&export=download"> 
                             <a> {data[language].aboutMe[4]}</a>
                         </Link>
                     </Button>
