@@ -15,7 +15,6 @@ const TagM = () => {
         'Sequelize',
         'Docker',
         'Strapi',
-        'JWT',
         'React.js',
         'Next.js',
         'Redux',
@@ -25,6 +24,8 @@ const TagM = () => {
         'Bootstrap',
         'Git',
         'Github',
+        'Vue.js',
+        'Nuxt.js'
     ]
 
     setTimeout(() => {
