@@ -7,11 +7,6 @@ const data = {
             "I'm a ",
             [
                 'Full Stack Developer.',
-                'MERN Developer.',
-                'PERN Developer.',
-                'Node.js Developer.',
-                'React.js Developer.',
-                'Next.js Developer.',
             ],
             'I enjoy experimenting with new technologies, acquiring new knowledge and working in a team.',
             'Check my projects',
@@ -62,7 +57,7 @@ const data = {
         },
         skills: {
             title: 'Skills',
-            skills:["/assets/skills/node.png","/assets/skills/express.png", "/assets/skills/sequelize.png", "/assets/skills/postgresql.png", "/assets/skills/mongo.png", "/assets/skills/mongoose.png", "/assets/skills/jwt.png", "/assets/skills/socket.png", "/assets/skills/docker.png", "/assets/skills/npm.png", "/assets/skills/react.png", "/assets/skills/next2.png", "/assets/skills/chakra.png", "/assets/skills/redux.png", "/assets/skills/sass.png", "/assets/skills/git.png"]
+            skills:["/assets/skills/node.png","/assets/skills/express.png", "/assets/skills/postgresql.png", "/assets/skills/mongo.png", "/assets/skills/react.png", "/assets/skills/next2.png", "/assets/skills/redux.png", "/assets/skills/chakra.png", "/assets/skills/vue.png","/assets/skills/nuxt.png","/assets/skills/tailwind.png","/assets/skills/docker.png","/assets/skills/git.png", "/assets/skills/github.png", "/assets/skills/linux.png"]
         },
         contact: {
             title: 'Contact',
@@ -82,11 +77,6 @@ const data = {
             'Soy ',
             [
                 'Full Stack Developer.',
-                'MERN Developer.',
-                'PERN Developer.',
-                'Node.js Developer.',
-                'React.js Developer.',
-                'Next.js Developer.',
             ],
             'Me gusta experimentar con nuevas tecnologías, adquirir nuevos conocimientos y trabajar en equipo.',
             'Mirá mis proyectos',
@@ -137,7 +127,7 @@ const data = {
         },
         skills: {
             title: 'Tecnologías',
-            skills:["/assets/skills/node.png","/assets/skills/express.png", "/assets/skills/sequelize.png", "/assets/skills/postgresql.png", "/assets/skills/mongo.png", "/assets/skills/mongoose.png", "/assets/skills/jwt.png", "/assets/skills/socket.png", "/assets/skills/docker.png", "/assets/skills/npm.png", "/assets/skills/react.png", "/assets/skills/next2.png", "/assets/skills/chakra.png", "/assets/skills/redux.png", "/assets/skills/sass.png", "/assets/skills/git.png"]
+            skills:["/assets/skills/node.png","/assets/skills/express.png", "/assets/skills/postgresql.png", "/assets/skills/mongo.png", "/assets/skills/react.png", "/assets/skills/next2.png", "/assets/skills/redux.png", "/assets/skills/chakra.png", "/assets/skills/vue.png","/assets/skills/nuxt.png","/assets/skills/tailwind.png","/assets/skills/docker.png","/assets/skills/git.png", "/assets/skills/github.png", "/assets/skills/linux.png"]
         },
         contact: {
             title: 'Contacto',

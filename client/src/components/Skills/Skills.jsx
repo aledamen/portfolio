@@ -54,8 +54,8 @@ const Skills = () => {
                             <Image
                                 src={skill}
                                 alt='skill'
-                                w={{ sm: '137px', m: '190px', md: '211px', xml: '235px' }}
-                                h={{ sm: '65px', m: '81px', md: '91px', xml: '101px' }}
+                                w={{ sm: '123px', m: '190px', md: '211px', xml: '235px' }}
+                                h={{ sm: '58px', m: '81px', md: '91px', xml: '101px' }}
                             />
                         </Box>
                     )

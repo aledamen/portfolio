@@ -42,7 +42,7 @@ const AboutMe = () => {
                         <Image
                             alt="Alejandro D'Amen"
                             as={motion.img}
-                            src="/assets/images/me.jpeg"
+                            src="/assets/images/foto2.jpeg"
                             width={{ base: '180px', lg: '230px' }}
                             height={{ base: '240px', lg: '300px' }}
                             border="1px solid #1E90FF"
@@ -68,7 +68,7 @@ const AboutMe = () => {
                         fontSize={{ base: '1rem', md: '1.2rem' }}
                         display={{ base: 'none', lg: 'flex' }}
                     >
-                        <Link href="https://drive.google.com/uc?id=1MW6ALdK_VvTtxZ72J450UWBjkMGoB_xm&export=download"> 
+                        <Link href="https://drive.google.com/uc?id=1XLbfgEcXwGF4xw09qI9jZ706O-zszoiW&export=download"> 
                             <a> {data[language].aboutMe[4]}</a>
                         </Link>
                     </Button>
@@ -130,7 +130,7 @@ const AboutMe = () => {
                         fontSize={{ base: '1rem', md: '1.2rem' }}
                         display={{ base: 'flex', lg: 'none' }}
                     >
-                        <Link href="https://drive.google.com/uc?id=1MW6ALdK_VvTtxZ72J450UWBjkMGoB_xm&export=download">
+                        <Link href="https://drive.google.com/uc?id=1XLbfgEcXwGF4xw09qI9jZ706O-zszoiW&export=download">
                             <a> {data[language].aboutMe[4]}</a>
                         </Link>
                     </Button>

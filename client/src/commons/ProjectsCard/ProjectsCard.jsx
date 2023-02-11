@@ -69,7 +69,7 @@ const ProjectsCard = ({data}) => {
                 </Box>
                 <Flex w="30px" h="30px" fill="primary" cursor="pointer" mt="1rem" ml="5px">
                     <Box mr="2rem">
-                        <Link href={data.linkGit}>
+                        <Link href={data.linkGit ? data.linkGit : ''}>
                             <a target="_blank">
                                 <Github
                                     w={{ base: '21px', md: '25px' }}
@@ -81,7 +81,7 @@ const ProjectsCard = ({data}) => {
                         </Link>
                     </Box>
                     <Box>
-                        <Link href={data.linkWeb}>
+                        <Link href={data.linkWeb ? data.linkWeb : ''}>
                             <a target="_blank">
                                 <Website
                                     w={{ base: '20px', md: '25px' }}

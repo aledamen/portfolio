@@ -37,7 +37,7 @@ const Footer = () => {
             >
                 <Image
                     alt='next.js'
-                    src={data[language].skills.skills[11]}
+                    src="/assets/skills/next2.png"
                     w={{ base: '137px', m: '171px', md: '211px' }}
                     h={{ base: '59px', m: '73px', md: '91px' }}
                 />
