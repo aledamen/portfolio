@@ -66,7 +66,7 @@ const data = {
         },
         footer: {
             title: 'Made with',
-            copyright:"Site developed by Alejandro D'Amen 2022."
+            copyright:"Site developed by Alejandro D'Amen 2023."
         }
     },
     es: {
@@ -136,7 +136,7 @@ const data = {
         },
         footer: {
             title: 'Hecho con',
-            copyright: "Sitio desarrollado por Alejandro D'Amen 2022."
+            copyright: "Sitio desarrollado por Alejandro D'Amen 2023."
         }
     },
 }

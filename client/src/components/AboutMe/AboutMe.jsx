@@ -38,7 +38,7 @@ const AboutMe = () => {
                     mt={{ base: '2rem', md: '4.5rem' }}
                     ml={{ base: '0', lg: '10rem' }}
                 >
-                    <Box height={{ base: '270px', lg: '300px' }} >
+                    <Box height={{ base: '270px', lg: '300px' }}>
                         <Image
                             alt="Alejandro D'Amen"
                             as={motion.img}
@@ -68,9 +68,15 @@ const AboutMe = () => {
                         fontSize={{ base: '1rem', md: '1.2rem' }}
                         display={{ base: 'none', lg: 'flex' }}
                     >
-                        <Link href="https://drive.google.com/uc?id=1XLbfgEcXwGF4xw09qI9jZ706O-zszoiW&export=download"> 
-                            <a> {data[language].aboutMe[4]}</a>
-                        </Link>
+                        <a
+                            href="/assets/Alejandro_DAmen_CV.pdf"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            download="Alejandro_D'Amen_CV"
+                        >
+                            {' '}
+                            {data[language].aboutMe[4]}
+                        </a>
                     </Button>
                 </Flex>
                 <Flex
@@ -130,9 +136,15 @@ const AboutMe = () => {
                         fontSize={{ base: '1rem', md: '1.2rem' }}
                         display={{ base: 'flex', lg: 'none' }}
                     >
-                        <Link href="https://drive.google.com/uc?id=1XLbfgEcXwGF4xw09qI9jZ706O-zszoiW&export=download">
-                            <a> {data[language].aboutMe[4]}</a>
-                        </Link>
+                        <a
+                            href="/assets/Alejandro_DAmen_CV.pdf"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            download="Alejandro_D'Amen_CV"
+                        >
+                            {' '}
+                            {data[language].aboutMe[4]}
+                        </a>
                     </Button>
                 </Flex>
             </Flex>
