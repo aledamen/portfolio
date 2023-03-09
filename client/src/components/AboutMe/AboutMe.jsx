@@ -91,6 +91,7 @@ const AboutMe = () => {
                     pr={{ base: '.5rem' }}
                 >
                     <Text
+                        whiteSpace='pre-line'
                         as={motion.p}
                         width="80%"
                         initial={{ opacity: 0 }}
@@ -101,6 +102,7 @@ const AboutMe = () => {
                         {data[language].aboutMe[1]}
                     </Text>
                     <Text
+                        whiteSpace='pre-line'
                         as={motion.p}
                         width="80%"
                         initial={{ opacity: 0 }}
@@ -111,6 +113,7 @@ const AboutMe = () => {
                         {data[language].aboutMe[2]}
                     </Text>
                     <Text
+                        whiteSpace='pre-line'
                         as={motion.p}
                         width="80%"
                         initial={{ opacity: 0 }}

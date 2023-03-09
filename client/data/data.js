@@ -13,9 +13,9 @@ const data = {
         ],
         aboutMe: [
             'About me',
-            'Since I was a child I was passionate about technology and sport. For 6 years I worked as a PE teacher and played rugby at the San Fernando Club.',
-            'I chose to challenge myself and did a programming bootcamp at Platform 5, consisting of more than 800hs during 4 months, working in pair programming and in teams, applying agile methodologies like SCRUM, which helped me to strengthen both my hard and soft skills.',
-            'I am a pro-active, dedicated and responsible person. Being involved in teaching and sport allowed me to acquire a passion for teamwork and communication.',
+            'I am a programmer passionate about what I do, I love to create new things and the more difficult the challenge, the more I enjoy it.\nI cannot remain in doubt or without knowing something, and as knowledge does not take up space, I take advantage of my free time to continue my education.',
+            'I  consider myself super proactive, I need to be always doing things or coming up with something new.\nMy other passion is sport, I have played team sports since I was a child until today, this taught me to put the team above the individual.',
+            'I also have training and experience as a teacher, which helps me to apply assertive communication in all areas of my life.',
             'Download Resume',
         ],
         projects: {
@@ -83,9 +83,9 @@ const data = {
         ],
         aboutMe: [
             'Sobre mí',
-            'Desde chico fui un apasionado por la tecnología y el deporte. Durante 6 años trabajé como profesor de Educación Física y juego al rugby en el Club San Fernando.',
-            'Elegí desafiarme e hice un bootcamp de programación en Plataforma 5, compuesto por mas de 800hs durante 4 meses, trabajando en pair programming y en equipos, aplicando metodologías ágiles como SCRUM, lo cual me ayudó a fortalecer tanto mis habilidades duras como blandas.',
-            'Soy una persona proactiva, dedicada y responsable. Estar relacionado con la docencia y el deporte me permitió adquirir esa pasión por el trabajo en equipo y la comunicación.',
+            'Soy un programador apasionado por lo que hace, me encanta crear cosas nuevas y cuando más difícil es el desafío, más lo disfruto.\nNo me puedo quedar con la duda o sin saber algo, y como el saber no ocupa espacio, aprovecho mi tiempo libre para seguir formándome.',
+            'Me considero super proactivo, necesito estar siempre haciendo cosas o ideando algo nuevo.\nMi otra pasión es el deporte, practiqué deporte en equipo desde chicho hasta la actualidad, esto me enseño a poner al equipo por sobre las individualidades.',
+            'También tengo formación y experiencia como docente, lo cual me ayuda a aplicar una comunicación asertiva en todos los ámbitos de mi vida.',
             'Descargar CV',
         ],
         projects: {
