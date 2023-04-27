@@ -122,7 +122,7 @@ const AboutMe = () => {
                         fontWeight="400"
                     >
                         {data[language].aboutMe[3]}
-                    </Text>
+                    </Text> 
                     <Button
                         as={motion.button}
                         initial={{ opacity: 0 }}
